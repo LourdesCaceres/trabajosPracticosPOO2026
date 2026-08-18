@@ -1,0 +1,7 @@
+#BlueJ class context
+#Thu Aug 13 20:47:00 ART 2026
+comment0.target=PersonaEjecutable
+comment0.text=\r\n Write a description of class PersonaEjecutable here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
