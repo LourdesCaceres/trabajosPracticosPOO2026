@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Aug 21 18:30:41 ART 2026
+comment0.target=Circunferencia
+comment0.text=\r\n Clase Circunferencia\: calcular el per\u00EDmetro de una circunferencia mediante\r\n ingreso del radio como argumento del main.\r\n \r\n @author Chavez Tob\u00EDas Acdel \r\n @version BlueJ 6.0.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

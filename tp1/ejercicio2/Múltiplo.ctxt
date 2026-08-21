@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Aug 21 18:26:50 ART 2026
+comment0.target=M\u00FAltiplo
+comment0.text=\r\n Clase M\u00FAltiplo\: determina los m\u00FAltiplos de 4 ubicados entre 42 y 150.\r\n \r\n \r\n @author Chavez Tob\u00EDas Acdel \r\n @version BlueJ 6.0.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
