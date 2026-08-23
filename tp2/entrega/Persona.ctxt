@@ -1,0 +1,28 @@
+#BlueJ class context
+#Sat Aug 22 20:02:15 ART 2026
+comment0.target=Persona
+comment0.text=\r\n Clase que representa la abstracci\u00F3n de una Persona dentro del sistema.\r\n Permite registrar datos personales y calcular su edad actual.\r\n \r\n @author Lourdes Gabriela Caceres\r\n @version 1.0 13/08/2026\r\n
+comment1.params=p_dni p_nombre p_apellido p_anio
+comment1.target=Persona(int, java.lang.String, java.lang.String, int)
+comment1.text=\r\n Constructor de la clase Persona\r\n @param p_dni N\u00FAmero de documento de la persona\r\n @param p_nombre Nombre de la persona\r\n @param p_apellido Apellido de la persona\r\n @param p_anio A\u00F1o de nacimiento de la persona\r\n
+comment10.target=int edad()
+comment10.text=\r\n M\u00E9todo que calcula la edad de la persona en funcion del a\u00F1o actual.\r\n \r\n @return La cantidad de a\u00F1os (edad) cumplidos hasta la fecha actual.\r\n
+comment11.target=java.lang.String nomYApe()
+comment11.text=\r\n M\u00E9todo que concatena el nombre y apellido de la persona\r\n \r\n @return Cadena con el formato "Nombre Apellido"\r\n
+comment12.target=java.lang.String apeYNom()
+comment12.text=\r\n Concatena el apellido y nombre de la persona\r\n \r\n @return Cadena con el formato "Apellido Nombre"\r\n
+comment13.target=void mostrar()
+comment13.text=\r\n Muestra por pantalla los datos personales de la persona\:\r\n Nombre y Apellido, DNI y edad actual a la fecha.\r\n
+comment2.target=int getDNI()
+comment3.target=java.lang.String getNombre()
+comment4.target=java.lang.String getApellido()
+comment5.target=int getAnioNacimiento()
+comment6.params=p_dni
+comment6.target=void setDNI(int)
+comment7.params=p_nombre
+comment7.target=void setNombre(java.lang.String)
+comment8.params=p_apellido
+comment8.target=void setApellido(java.lang.String)
+comment9.params=p_anio
+comment9.target=void setAnioNacimiento(int)
+numComments=14

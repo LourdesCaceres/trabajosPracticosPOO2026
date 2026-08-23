@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sat Aug 22 19:20:31 ART 2026
+comment0.target=AlumnoEjecutable
+comment0.text=\r\n Clase ejecutable para instanciar y probar m\u00FAltiples objetos Alumno\r\n recibiendo sus datos por argumentos del main.\r\n\r\n @author Lourdes Gabriela Caceres \r\n @version 1.0 13/08/2026\r\n
+comment1.params=arg
+comment1.target=void main(java.lang.String[])
+numComments=2

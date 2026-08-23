@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sat Aug 22 19:20:26 ART 2026
+comment0.target=Alumno
+comment0.text=\r\n La clase "Alumno" representa los datos personales y acad\u00E9micos de\r\n un alumno de la asignatura POO, y evaluar su condicion acad\u00E9mica (promedio \r\n y condicion de aprobado).\r\n \r\n @author Lourdes Gabriela Caceres \r\n @version 1.0 13/08/2026\r\n
+comment1.params=p_lu p_nombre p_apellido
+comment1.target=Alumno(int, java.lang.String, java.lang.String)
+comment1.text=\r\n Constructor de la clase Alumno\r\n \r\n @param p_lu N\u00FAmero de libreta universitaria\r\n @param p_nombre Nombre del alumno\r\n @param p_apellido Apellido del alumno\r\n
+comment10.params=p_nota1
+comment10.target=void setNota1(double)
+comment11.params=p_nota2
+comment11.target=void setNota2(double)
+comment12.target=double promedio()
+comment12.text=\r\n M\u00E9todo, calcula el promedio de las dos notas del alumno\r\n \r\n @return el 'promedio' (double) de las notas.\r\n
+comment13.target=boolean aprueba()
+comment13.text=\r\n Metodo que determina si el alumno cumple (true) o no (false) las condiciones \r\n para aprobar la asignatura, a partir de su promedio.\r\n \r\n @return true o false dependiendo del promedio\r\n
+comment14.target=java.lang.String leyendaAprueba()
+comment14.text=\r\n Metodo que muestra en pantalla el aprobado o desaprobado, dependiedo de la\r\n condicion en la que este el alumno.\r\n \r\n @return Cadena "APROBADO" o "DESAPROBADO" \r\n
+comment15.target=java.lang.String nomYApe()
+comment15.text=\r\n M\u00E9todo que concatena el nombre y apellido de la persona\r\n \r\n @return Cadena con el formato "Nombre Apellido"\r\n
+comment16.target=java.lang.String apeYNom()
+comment16.text=\r\n Concatena el apellido y nombre de la persona\r\n \r\n @return Cadena con el formato "Apellido Nombre"\r\n
+comment17.target=void mostrar()
+comment17.text=\r\n M\u00E9todo que muestra por pantalla la informacion y situaci\u00F3n acad\u00E9mica del alunmno\:\r\n Nombre y Apellido, LU; notas, promedio y condicion final.\r\n
+comment2.target=int getLU()
+comment3.target=java.lang.String getNombre()
+comment4.target=java.lang.String getApellido()
+comment5.target=double getNota1()
+comment6.target=double getNota2()
+comment7.params=p_lu
+comment7.target=void setLU(int)
+comment8.params=p_nombre
+comment8.target=void setNombre(java.lang.String)
+comment9.params=p_apellido
+comment9.target=void setApellido(java.lang.String)
+numComments=18
