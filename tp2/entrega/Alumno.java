@@ -101,7 +101,7 @@ public class Alumno {
     }
     
     /**
-     * Método que concatena el nombre y apellido de la persona
+     * Método que concatena el nombre y apellido del alumno
      * 
      * @return Cadena con el formato "Nombre Apellido"
      */
@@ -110,7 +110,7 @@ public class Alumno {
     }
     
     /**
-     * Concatena el apellido y nombre de la persona
+     * Concatena el apellido y nombre del alumno
      * 
      * @return Cadena con el formato "Apellido Nombre"
      */
