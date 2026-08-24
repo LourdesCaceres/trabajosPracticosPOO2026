@@ -1,0 +1,23 @@
+#BlueJ class context
+#Sun Aug 23 21:55:26 ART 2026
+comment0.target=Punto
+comment0.text=\r\n La clase Punto representa un punto en un sistema de ejes cartesianos para posterior uso en trabajos de figuras geom\u00E9tricas.\r\n Se instancia de dos maneras seg\u00FAn si el punto est\u00E1 en el origen o tiene valores de x e y. Se dise\u00F1an m\u00E9todos para desplazar,\r\n escribir en forma de coordenadas y mostrar los valores.\r\n \r\n @author Chavez, Tob\u00EDas Acdel.\r\n @version 1.0\r\n
+comment1.target=Punto()
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE PUNTO\: para el caso de que el punto est\u00E9 en el origen (0,0).\r\n
+comment2.params=p_x p_y
+comment2.target=Punto(double, double)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE PUNTO\: para el caso de que el punto tenga valores distintos a 0.\r\n
+comment3.params=p_x
+comment3.target=void setX(double)
+comment4.params=p_y
+comment4.target=void setY(double)
+comment5.target=double getX()
+comment6.target=double getY()
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment7.text=\r\n M\u00E9todo desplazar()\r\n Recibe por par\u00E1metro los valores de desplazo de los ejes x e y, estos valores se sumar\u00E1n a los de los propios ejes,\r\n dando por resultado nuevas coordenadas.\r\n
+comment8.target=java.lang.String coordenadas()
+comment8.text=\r\n M\u00E9todo coordenadas()\r\n Escribe los valores de los ejes x e y como coordenadas, es decir, con la forma "(x, y)".\r\n
+comment9.target=void mostrar()
+comment9.text=\r\n M\u00E9todo mostrar()\r\n Imprime un mensaje en pantalla donde se detallan los valores de los ejes x e y para el punto.\r\n
+numComments=10

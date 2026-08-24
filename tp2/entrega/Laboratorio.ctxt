@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sun Aug 23 21:25:28 ART 2026
+comment0.target=Laboratorio
+comment0.text=\r\n La clase Laboratorio representa los laboratorios que fabrican medicamentos, con los cuales\r\n trabaja una droguer\u00EDa. La clase tiene dos formas de instanciarse, una con m\u00E1s par\u00E1metros y otra \r\n con menos la cual se trabaja mediante m\u00E9todos p\u00FAblicos. Se requiere un m\u00E9todo que imprima un mensaje\r\n en pantalla con los datos del laboratorio.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version BlueJ 6.0.0\r\n
+comment1.params=p_nombre p_domicilio p_telefono p_compraMin p_diaEnt
+comment1.target=Laboratorio(java.lang.String, java.lang.String, java.lang.String, int, int)
+comment1.text=\r\n CONSTRUCTORES\r\n La clase Laboratorio tiene dos constructores para las dos formas en que un objeto de esta\r\n clase puede ser instanciado.\r\n \r\n Primer constructor, con los par\u00E1metros\:\r\n @param p_nombre - Nombre del laboratorio.\r\n @param p_domicilio - Domicilio del laboratorio.\r\n @param p_telefono - N\u00FAmero de tel\u00E9fono que tiene el laboratorio.\r\n @param p_compraMin - Monto de la compra m\u00EDnima.\r\n @param p_diaEntrega - n\u00FAmero de d\u00EDa en el que se realiza la entrega.\r\n
+comment10.target=java.lang.String getTelefono()
+comment11.target=int getCompraMinima()
+comment12.target=int getDiaEntrega()
+comment13.params=p_compraMin
+comment13.target=void nuevaCompraMinima(int)
+comment13.text=\r\n M\u00E9todo nuevaCompraM\u00EDnima()\r\n Actua como setter para el caso en que se instancia un objeto sin compra m\u00EDnima, en cuyo caso \r\n se ingresar\u00E1 el dato mediante este m\u00E9todo y el valor pasado por par\u00E1metro.\r\n
+comment14.params=p_diaEnt
+comment14.target=void nuevoDiaEntrega(int)
+comment14.text=\r\n M\u00E9todo nuevoDiaEntrega()\r\n Actua como setter para el caso en que se instancia un objeto sin d\u00EDa de entrega, en cuyo caso \r\n se ingresar\u00E1 el dato mediante este m\u00E9todo y el valor pasado por par\u00E1metro.\r\n
+comment15.target=void mostrar()
+comment15.text=\r\n M\u00E9todo mostrar()\r\n Imprime en pantalla los datos del laboratorio en un formato espec\u00EDfico.\r\n
+comment2.params=p_nombre p_domicilio p_telefono
+comment2.target=Laboratorio(java.lang.String, java.lang.String, java.lang.String)
+comment2.text=\r\n Segundo constructor, con los par\u00E1metros\:\r\n @param p_nombre - Nombre del laboratorio.\r\n @param p_domicilio - Domicilio del laboratorio.\r\n @param p_telefono - N\u00FAmero de tel\u00E9fono que tiene el laboratorio.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment3.text=\r\nSETTERS Y GETTERS\r\nNecesarios para trabajar con los datos siendo los atributos privados. Hay uno para cada atributo.\r\n
+comment4.params=p_domicilio
+comment4.target=void setDomicilio(java.lang.String)
+comment5.params=p_telefono
+comment5.target=void setTelefono(java.lang.String)
+comment6.params=p_compraMin
+comment6.target=void setCompraMinima(int)
+comment7.params=p_diaEnt
+comment7.target=void setDiaEntrega(int)
+comment8.target=java.lang.String getNombre()
+comment9.target=java.lang.String getDomicilio()
+numComments=16

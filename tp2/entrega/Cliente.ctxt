@@ -1,0 +1,32 @@
+#BlueJ class context
+#Sun Aug 23 21:42:55 ART 2026
+comment0.target=Cliente
+comment0.text=\r\n La clase Cliente representa la abstracci\u00F3n de los datos de una persona cliente de un negocio, se registran\r\n datos personales y el saldo. Se desarrollan m\u00E9todos para actualizar y reemplazar el saldo, as\u00ED como uno\r\n para imprimir un mensaje con los datos del cliente.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0\r\n
+comment1.params=p_dni p_nombre p_apellido p_saldo
+comment1.target=Cliente(int, java.lang.String, java.lang.String, double)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE CLIENTE\r\n \u00DAnica forma de instanciar un objeto con esta clase. Se interactua con los atributos mediante setters.\r\n \r\n @param p_dni - DNI del cliente.\r\n @param p_nombre - Nombre del cliente.\r\n @param p_apellido - Apellido del cliente.\r\n @param p_saldo - Saldo actual del cliente.\r\n
+comment10.target=java.lang.String nomYApe()
+comment10.text=\r\n M\u00E9todo nomYape()\r\n Concatena el nombre y apellido del cliente separado por un espacio. Devuelve como un String.\r\n
+comment11.target=java.lang.String ApeYNom()
+comment11.text=\r\n M\u00E9todo apeYNom()\r\n Concatena el apellido y nombre del cliente separado por un espacio. Devuelve como un String.\r\n
+comment12.params=p_importe
+comment12.target=double nuevoSaldo(double)
+comment12.text=\r\n M\u00E9todo nuevoSaldo()\r\n Recibe por par\u00E1metro un importe que reemplazar\u00E1 el importe actual del objeto de clase Cliente. Devuelve el saldo.\r\n
+comment13.params=p_importe
+comment13.target=double agregarSaldo(double)
+comment13.text=\r\n M\u00E9todo agregarSaldo()\r\n Recibe por par\u00E1metro un importe que se sumar\u00E1 al importe que tenga el objeto de clase Cliente. Devuelve el saldo.\r\n
+comment14.target=void mostrar()
+comment14.text=\r\n M\u00E9todo mostrar()\r\n Imprime en pantalla un mensaje con los datos del cliente con un formato espec\u00EDfico.\r\n
+comment2.params=p_dni
+comment2.target=void setDNI(int)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_apellido
+comment4.target=void setApellido(java.lang.String)
+comment5.params=p_saldo
+comment5.target=void setSaldo(double)
+comment6.target=int getDNI()
+comment7.target=java.lang.String getNombre()
+comment8.target=java.lang.String getApellido()
+comment9.target=double getSaldo()
+numComments=15

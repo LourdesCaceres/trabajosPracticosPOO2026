@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Aug 23 21:33:14 ART 2026
+comment0.target=LaboratorioEjecutable
+comment0.text=\r\n Clase ejecutable para la clase Laboratorio. Instancia 3 objetos de clase Laboratorio mediante constantes \r\n seleccionadas por el autor y prueba los m\u00E9todos p\u00FAblicos nuevaCompraMinima(), nuevoDiaEntrega() y\r\n mostrar().\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version BlueJ 6.0.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n M\u00E9todo main()\r\n El m\u00E9todo no est\u00E1 dise\u00F1ado para recibir argumentos ni que sean ingresados por teclado, en caso de\r\n que se ingresen argumentos, el resultado ser\u00E1 el mismo.\r\n El m\u00E9todo instancia 3 objetos de clase Laboratorio\: lab1, lab2 y lab3. Como prueba, a lab2 se lo instancia\r\n con el segundo constructor y se prueban las funciones nuevaCompraMinima() y nuevoDiaEntrega(). Se prueba mostrar()\r\n con los 3 objetos.\r\n
+numComments=2

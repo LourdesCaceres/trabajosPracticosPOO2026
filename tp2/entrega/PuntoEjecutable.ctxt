@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Aug 23 22:00:32 ART 2026
+comment0.target=PuntoEjecutable
+comment0.text=\r\n Clase ejecutable para la clase Punto. Los datos se ingresan por teclado mediante Scanner.\r\n \r\n @author Chavez, Tob\u00EDas Acdel.\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n M\u00E9todo main()\r\n El m\u00E9todo pide al usuario que ingrese los valores que le ser\u00E1n asignados a los ejes x e y, datos que ser\u00E1n ingresados por teclado\r\n mediante Scanner. Se instancia el objeto de clase Punto punto1 con los valores ingresados, se los pasa a coordenadas mediante \r\n coordenadas() y se muestra el resultado con mostrar().\r\n El m\u00E9todo pide al usuario que ingrese los valores que desplazar\u00E1n a los ejes x e y. Con estos datos se prueba el m\u00E9todo\r\n desplazar() y se muestran los resultados mediante mostrar().\r\n
+numComments=2

@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Aug 23 21:47:24 ART 2026
+comment0.target=ClienteEjecutable
+comment0.text=\r\n Clase ejecutable para la clase Cliente. los objetos se instancian mediante argumentos del main y se prueban los m\u00E9todos\r\n p\u00FAblicos.\r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n M\u00E9todo main()\r\n Dise\u00F1ado para ingresar argumentos, los cuales ser\u00E1n los atributos del cliente (dni, nombre, apellido y saldo),\r\n ser\u00E1n recibidos como Strings por lo que dni y saldo son parseados a sus respectivos tipos de datos.\r\n Se instancia un objeto de clase Cliente con estos datos y se prueban los m\u00E9todos agregarSaldo() y mostrar() para\r\n ver el resultado, se prueba nuevoSaldo() y se vuelve a usar mostrar() para ver el correcto funcionamiento.\r\n
+numComments=2
