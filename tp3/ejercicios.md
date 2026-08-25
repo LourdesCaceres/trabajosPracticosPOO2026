@@ -1,3 +1,16 @@
+Conceptos teóricos: Conocimiento entre objetos, colaboradores, ventajas del ocultamiento de información
+Consignas: En cada ejercicio deberá
+a) Crear el código JAVA correspondiente a los diagramas de Clase.
+b) Aunque no se indique explícitamente, debe implementar los constructores y accessors
+c) Agregar documentación utilizando la herramienta provista por java (javadoc)
+d) Crear una clase ejecutable, en la que se instancien varios objetos de las clases creadas y se utilicen los distintos
+métodos para verificar su funcionamiento.
+e) Para ejercitar el ingreso de datos:
+o En el ejercicio 1 ingresar como constantes en el ejecutable
+o En el ejercicio 2 ingresar como argumentos del método main().
+o Ejercicios restantes: ingresar los datos por teclado, utilizando la clase Scanner
+f) Implementar al menos 1 ejercicio con menú para selección de opciones
+
 Para garantizar el dominio equivalente de los conceptos de **conocimiento entre objetos**, **colaboradores**, **instanciación compleja** y **ocultamiento de información**, los 12 ejercicios del Práctico N° 3 se estructuran en dos bloques de trabajo equilibrados en complejidad técnica y requisitos de implementación.
 
 | Ejercicio | Integrante Asignado | Concepto Dominante de POO | Forma de Ingreso de Datos |
