@@ -1,0 +1,26 @@
+#BlueJ class context
+#Mon Aug 24 20:19:41 ART 2026
+comment0.target=Circulo
+comment0.text=\r\n Write a description of class Circulo here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 24/08/2026\r\n
+comment1.params=p_radio p_centro
+comment1.target=Circulo(double, Punto)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE CIRCULO\r\n
+comment10.target=void caracteristicas()
+comment11.params=p_otroCirculo
+comment11.target=double distanciaA(Circulo)
+comment12.params=p_otroCirculo
+comment12.target=Circulo elMayor(Circulo)
+comment2.target=Circulo()
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE CIRCULO\r\n
+comment3.params=p_radio
+comment3.target=void setRadio(double)
+comment3.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment4.params=p_centro
+comment4.target=void setCentro(Punto)
+comment5.target=double getRadio()
+comment6.target=Punto getCentro()
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment8.target=double perimetro()
+comment9.target=double superficie()
+numComments=13
