@@ -1,5 +1,5 @@
 import java.util.Random;
-import java.util.Formatter;
+//import java.util.Formatter;        *No se necesita importar java.util.Formatter para que printf funcione.
 /**
  * 
  */
@@ -32,8 +32,6 @@ public class CreaFigura {
         rectangulo1.elMayor(rectangulo2).caracteristicas();
         
         System.out.printf("\nLa distancia entre los dos rectangulos es: %.2f", rectangulo1.distanciaA(rectangulo2));
-
-        System.out.printf(""+rectangulo1.getAlto());
 
     }
 }
