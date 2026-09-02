@@ -1,7 +1,7 @@
 import java.util.Formatter;
 /**
- * 
- * Rectangulo
+ * Representa la abstraccion de una figura geométrica (rectángulo) en el plano,
+ * definida por un punto de origen (de la clase Punto), un ancho y un alto.
  * 
  * @author Lourdes Gabriela Caceres
  * @version 1.0 27/08/2026
