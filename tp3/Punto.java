@@ -7,7 +7,7 @@
  * @author Chavez, Tobías Acdel y Caceres Lourdes G.
  * @version 2.0 24/08/2026
  */
-public class Punto2 {
+public class Punto {
     //atributos de instancia x e y, ejes de un sistema de ejes.
     private double x;
     private double y;
@@ -15,7 +15,7 @@ public class Punto2 {
     /**
      * PRIMER CONSTRUCTOR DE LA CLASE PUNTO: para el caso de que el punto esté en el origen (0,0).
      */
-    public Punto2 (){
+    public Punto (){
         this.setX(0);
         this.setY(0);
     }
@@ -27,7 +27,7 @@ public class Punto2 {
      * @param p_x 
      * @param p_y
      */
-    public Punto2 (double p_x, double p_y){
+    public Punto (double p_x, double p_y){
         this.setX(p_x);
         this.setY(p_y);
     }
@@ -88,7 +88,7 @@ public class Punto2 {
      * @param p_ptoDistante de la clase Punto
      * @return pitagoras, resultado de calcular la distancia entre los dos puntos.
      */
-    public double distanciaA(Punto2 p_ptoDistante){
+    public double distanciaA(Punto p_ptoDistante){
         double x1 = this.getX();
         double y1 = this.getY();
         
