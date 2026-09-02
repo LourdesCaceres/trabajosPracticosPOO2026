@@ -9,7 +9,7 @@ import java.util.Formatter;
 public class Rectangulo {
     
     //variables de intancia
-    private Punto2 origen;
+    private Punto origen;
     private double ancho;
     private double alto;
 
@@ -22,7 +22,7 @@ public class Rectangulo {
      */
     public Rectangulo(double p_ancho, double p_alto){
         
-        setOrigen(new Punto2(0,0));
+        setOrigen(new Punto(0,0));
         setAncho(p_ancho);
         setAlto(p_alto);
     }
@@ -34,14 +34,14 @@ public class Rectangulo {
      * @param p_ancho
      * @param p_alto
      */
-    public Rectangulo(Punto2 p_origen, double p_ancho, double p_alto){
+    public Rectangulo(Punto p_origen, double p_ancho, double p_alto){
         setOrigen(p_origen);
         setAncho(p_ancho);
         setAlto(p_alto);
     }
 
     //Observadores (GETTERS)
-    public Punto2 getOrigen(){
+    public Punto getOrigen(){
         return this.origen;
     }
     public double getAncho(){
@@ -52,7 +52,7 @@ public class Rectangulo {
     }
 
     //Mutadores (SETTERS)
-    private void setOrigen(Punto2 p_origen){
+    private void setOrigen(Punto p_origen){
         this.origen = p_origen;
     } 
     private void setAncho(double p_ancho){
