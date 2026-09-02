@@ -9,17 +9,17 @@
  * @author Lourdes G. Caceres
  * @version 1.0 24/08/2026
  */
-public class PuntoEjecutable2{
+public class PuntoEjecutable{
     
     public static void main (String args []){
     
     //Instanciacion del primer punto (indices 0 y 1)
-    Punto2 punto1 = new Punto2();
+    Punto punto1 = new Punto();
     punto1.setx(Double.parseDouble(args[0]);
     punto2.setY(Double.parseDouble(args[1]);
     
     //intanciación del segundo punto (indices 2 y 3)
-    Punto2 punto2 = new Punto2(Double.parseDouble(args[2]), 
+    Punto punto2 = new Punto(Double.parseDouble(args[2]), 
                                 Double.parseDouble(args[3]));
                                 
     punto1.desplazar(Double.parseDouble(args[4], Double.parseDouble(args[5]);
