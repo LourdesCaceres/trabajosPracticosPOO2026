@@ -1,0 +1,37 @@
+#BlueJ class context
+#Sun Sep 06 20:36:41 ART 2026
+comment0.target=Mujer
+comment0.text=\r\n Clase que representa a una Mujer dentro del sistema del Registro Civil.\r\n Mantiene una relaci\u00F3n bidireccional casada o divorciada [0...1]con la clase Hombre.\r\n \r\n @author Lourdes G. Caceres \r\n @version 1.0 02/09/2026\r\n
+comment1.params=p_nombre p_apellido p_edad
+comment1.target=Mujer(java.lang.String, java.lang.String, int)
+comment1.text=\r\n 1er Constructor de la clase Mujer, estado civil "SOLTERA"\r\n \r\n @param p_nombre\r\n @param p_apellido\r\n @param p_edad\r\n
+comment10.target=int getEdad()
+comment11.target=java.lang.String getEstadoCivil()
+comment12.target=Hombre getEsposo()
+comment13.params=p_hombre
+comment13.target=void casarseCon(Hombre)
+comment13.text=\r\n Establece la conexi\u00F3n (matrimonio) entre la dos intancias Hombre y Mujer\r\n \r\n @param p_hombre instancia de la clase Hombre\r\n
+comment14.target=void divorcio()
+comment14.text=\r\n Deshace la conexion (divorcio) entre las dos instancias Hombre y Mujer\r\n
+comment15.target=java.lang.String datos()
+comment15.text=\r\n Retorna la representaci\u00F3n concatenada de los datos filiatorios.\r\n \r\n @return Cadena con nombre, apellido y edad.\r\n
+comment16.target=void mostrarEstadoCivil()
+comment16.text=\r\n Imprime por pantalla los datos y el estado civil actual\r\n
+comment17.target=void casadaCon()
+comment17.text=\r\n Imprime por pantalla, si es el caso, con quien esta casada la mujer\r\n
+comment2.params=p_nombre p_apellido p_edad p_esposo
+comment2.target=Mujer(java.lang.String, java.lang.String, int, Hombre)
+comment2.text=\r\n 2do Constructor de la clase Mujer, estado civil "CASADA"\r\n \r\n @param p_nombre\r\n @param p_apellido\r\n @param p_edad\r\n @param p_esposo\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_apellido
+comment4.target=void setApellido(java.lang.String)
+comment5.params=p_edad
+comment5.target=void setEdad(int)
+comment6.params=p_estado
+comment6.target=void setEstadoCivil(java.lang.String)
+comment7.params=p_esposo
+comment7.target=void setEsposo(Hombre)
+comment8.target=java.lang.String getNombre()
+comment9.target=java.lang.String getApellido()
+numComments=18
