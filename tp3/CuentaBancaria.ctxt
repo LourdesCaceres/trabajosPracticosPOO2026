@@ -1,0 +1,30 @@
+#BlueJ class context
+#Sat Sep 05 17:58:28 ART 2026
+comment0.target=CuentaBancaria
+comment0.text=\r\n Clase que representa la abstracci\u00F3n de una cuenta bancaria, permite registrar un nuevo titular \r\n (con sus datos personales) y administrar el saldo de la cuenta.\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 31/08/2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaBancaria(int, Persona)
+comment1.text=\r\n 1er Constructor de la clase CuentaBancaria, sin un saldo inicial\r\n \r\n @param p_nroCuenta\r\n @param p_titular\r\n
+comment10.params=p_importe
+comment10.target=double extraer(double)
+comment10.text=\r\n Decrementa el saldo actual de la cuenta tanto como se espec\u00EDfica\r\n \r\n @param  p_importe el monto que extrae el titular\r\n @return  el saldo actualizado\r\n
+comment11.target=void mostrar()
+comment11.text=\r\n Muestra por pantalla un informe con la informacion personal y bancaria del titular\r\n
+comment12.target=java.lang.String toString()
+comment12.text=\r\n Concatena en una sola linea la informacion importante del titular\r\n \r\n @return  cadena formada por el nro de cuente, el titular y el saldo actual\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaBancaria(int, Persona, double)
+comment2.text=\r\n 2do Constructor de la clase CuentaBancaria, sin un saldo inicial\r\n \r\n @param p_nroCuenta\r\n @param p_titular\r\n @param p_saldo\r\n
+comment3.target=int getNroCuenta()
+comment4.target=double getSaldo()
+comment5.target=Persona getTitular()
+comment6.params=p_nroCuenta
+comment6.target=void setNroCuenta(int)
+comment7.params=p_saldo
+comment7.target=void setSaldo(double)
+comment8.params=p_titular
+comment8.target=void setTitular(Persona)
+comment9.params=p_importe
+comment9.target=double depositar(double)
+comment9.text=\r\n Incrementa el saldo actual de la cuenta tanto como se espec\u00EDfica\r\n \r\n @param  p_importe el monto que deposita el titular\r\n @return  el saldo actualizado\r\n
+numComments=13
