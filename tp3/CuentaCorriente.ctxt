@@ -1,0 +1,37 @@
+#BlueJ class context
+#Sun Sep 06 17:09:23 ART 2026
+comment0.target=CuentaCorriente
+comment0.text=\r\n Clase que simula el funcionamiento de la cuenta corriente de un banco.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 30/08/2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaCorriente(int, Persona)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CALSE CuentaCorriente.\r\n Por defecto el saldo es 0 y el limite de descubierto es de 500.0,\r\n simula la creaci\u00F3n de una cuenta nueva.\r\n \r\n @param p_nroCuenta\: int - numero de cuenta de la persona.\r\n @param p_titular\: Persona - la persona titular de la cuenta.\r\n
+comment10.target=double getLimDescubierto()
+comment11.params=p_importe
+comment11.target=void depositar(double)
+comment11.text=\r\n Recibe un importe que se sumar\u00E1 al saldo de la cuenta.\r\n \r\n @param  p_importe\: double - importe a depositar.\r\n
+comment12.params=p_importe
+comment12.target=boolean puedeExtraer(double)
+comment12.text=\r\n Verifica si un importe cumple las condiciones de extracci\u00F3n, las cu\u00E1les son\r\n que el importe no sea mayor al saldo sumado al limite de descubierto.\r\n \r\n @param p_importe\: double - importe que se desea extraer.\r\n @return verdadero o falso seg\u00FAn si se puede extraer o no.\r\n
+comment13.params=p_importe
+comment13.target=void extraccion(double)
+comment13.text=\r\n Extrae el importe, actualiza el saldo.\r\n \r\n @param p_importe\: double - importe que ser\u00E1 extra\u00EDdo.\r\n
+comment14.params=p_importe
+comment14.target=void extraer(double)
+comment14.text=\r\n Sigue el procedimiento para extraer un importe del saldo.\r\n Primero verifica a trav\u00E9s de un if si cumple las condiciones, si no cumple una\r\n indica un mensaje con el problema; si cumple ambas, llama al m\u00E9todo que \r\n extrae el dinero y muestra un mensaje.\r\n \r\n @param p_importe\: double - importe a extraer.\r\n
+comment15.target=void mostrar()
+comment15.text=\r\n Imprime en pantalla los datos de la cuenta corriente.\r\n Imprime el numero de cuenta, el saldo, el titular y de cu\u00E1nto es el\r\n limite descubierto.\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaCorriente(int, Persona, double)
+comment2.text=\r\n PRIMER CONSTRUCTOR DE LA CALSE CuentaCorriente.\r\n Ya posee un saldo pero el limite es 500.0 por defecto.\r\n \r\n @param p_nroCuenta\: int - numero de cuenta de la persona.\r\n @param p_saldo\: double - saldo de la cuenta.\r\n @param p_titular\: Persona - la persona titular de la cuenta.\r\n
+comment3.params=p_nroCuenta
+comment3.target=void setNroCuenta(int)
+comment4.params=p_titular
+comment4.target=void setTitular(Persona)
+comment5.params=p_saldo
+comment5.target=void setSaldo(double)
+comment6.params=p_limite
+comment6.target=void setLimDescubierto(double)
+comment7.target=int getNroCuenta()
+comment8.target=Persona getTitular()
+comment9.target=double getSaldo()
+numComments=16

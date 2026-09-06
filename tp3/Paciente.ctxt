@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sun Sep 06 17:21:19 ART 2026
+comment0.target=Paciente
+comment0.text=\r\n Clase que representa un paciente con sus datos.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 31/08/2026\r\n
+comment1.params=p_historia p_nombre p_domicilio p_localidadNacido p_localidadVive
+comment1.target=Paciente(int, java.lang.String, java.lang.String, Localidad, Localidad)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE PACIENTE\r\n \r\n @param p_historia\: int - numero de historia clinica\r\n @param p_nombre\: String - nombre del paciente.\r\n @param p_domicilio\: String - domicilio donde reside el paciente.\r\n @param p_localidadNacido\: Localidad - localidad donde naci\u00F3 el paciente.\r\n @param p_localidadVive\: Localidad - localidad donde vive actualmente el paciente.\r\n
+comment10.target=Localidad getNacido()
+comment11.target=Localidad getVive()
+comment12.target=void mostrarDatosPantalla()
+comment12.text=\r\n Muestra por pantalla los datos del paciente, siendo su nombre,\r\n historia clinica, domicilio y la localidad donde vive.\r\n Para mostrar los datos de la localidad se hizo uso del m\u00E9todo mostrar() presente\r\n en la clase Localidad.\r\n
+comment13.target=java.lang.String cadenaDeDatos()
+comment2.params=p_historia
+comment2.target=void setHistoria(int)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_domicilio
+comment4.target=void setDomicilio(java.lang.String)
+comment5.params=p_localidadNacido
+comment5.target=void setNacido(Localidad)
+comment6.params=p_localidadVive
+comment6.target=void setVive(Localidad)
+comment7.target=int getHistoria()
+comment8.target=java.lang.String getNombre()
+comment9.target=java.lang.String getDomicilio()
+numComments=14

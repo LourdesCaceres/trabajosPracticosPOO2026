@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 06 16:16:46 ART 2026
+comment0.target=EmpleadoConJefeEjecutable
+comment0.text=\r\n Clase ejecutable de la clase EmpleadoConJefe.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 06/09/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n M\u00E9todo Main().\r\n Pide datos al usuario mediante scanner e instancia 2 objetos, uno para\r\n el caso en que el empleado tiene jefe, y otro para cuando no lo tiene.\r\n En el segundo se preguntar\u00E1 si desea ingresar la fecha completa de ingreso\r\n o solo el a\u00F1o para probar los 3 constructores.\r\n
+numComments=2

@@ -1,0 +1,37 @@
+#BlueJ class context
+#Sun Sep 06 17:09:27 ART 2026
+comment0.target=CajaDeAhorro
+comment0.text=\r\n Clase que simula el funcionamiento de una caja de ahorro\r\n en un banco.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 27/08/2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CajaDeAhorro(int, Persona)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CALSE CajaDeAhorro\r\n Por defecto el saldo es 0 y las extracciones posibles son 10,\r\n simula la creaci\u00F3n de una cuenta nueva.\r\n \r\n @param p_nroCuenta\: int - numero de cuenta de la persona.\r\n @param p_titular\: Persona - la persona titular de la cuenta.\r\n
+comment10.params=p_extraccionesPosibles
+comment10.target=void setExtraccionesPosibles(int)
+comment11.params=p_importe
+comment11.target=void depositar(double)
+comment11.text=\r\n Recibe un importe que se sumar\u00E1 al saldo de la cuenta.\r\n \r\n @param  p_importe\: double - importe a depositar.\r\n
+comment12.params=p_importe
+comment12.target=boolean puedeExtraer(double)
+comment12.text=\r\n Verifica si un importe cumple las condiciones de extracci\u00F3n, las cu\u00E1les son\r\n que el importe no sea mayor al saldo ni las extracciones posibles menores a 0.\r\n \r\n @param p_importe\: double - importe que se desea extraer.\r\n @return verdadero o falso seg\u00FAn si se puede extraer o no.\r\n
+comment13.params=p_importe
+comment13.target=void extraer(double)
+comment13.text=\r\n Sigue el procedimiento para extraer un importe del saldo.\r\n Primero verifica a trav\u00E9s de un if anidado si cumple las condiciones, si no cumple una\r\n indica un mensaje con el problema; si cumple ambas, llama al m\u00E9todo que \r\n extrae el dinero y muestra un mensaje.\r\n \r\n @param p_importe\: double - importe a extraer.\r\n
+comment14.params=p_importe
+comment14.target=void extraccion(double)
+comment14.text=\r\n Extrae el importe, actualiza el saldo y resta una de las extracciones posibles.\r\n \r\n @param p_importe\: double - importe que ser\u00E1 extra\u00EDdo.\r\n
+comment15.target=void mostrar()
+comment15.text=\r\n Imprime en pantalla los datos de la caja de ahorro.\r\n Imprime el numero de cuenta, el saldo, el titular y cu\u00E1ntas extracciones\r\n le queda.\r\n
+comment2.params=p_nroCuenta p_saldo p_titular
+comment2.target=CajaDeAhorro(int, double, Persona)
+comment2.text=\r\n PRIMER CONSTRUCTOR DE LA CALSE CajaDeAhorro\r\n Ya posee un saldo pero las extracciones son por defecto.\r\n \r\n @param p_nroCuenta\: int - numero de cuenta de la persona.\r\n @param p_saldo\: double - saldo de la cuenta.\r\n @param p_titular\: Persona - la persona titular de la cuenta.\r\n
+comment3.target=int getNroCuenta()
+comment4.target=Persona getTitular()
+comment5.target=double getSaldo()
+comment6.target=int getExtraccionesPosibles()
+comment7.params=p_nroCuenta
+comment7.target=void setNroCuenta(int)
+comment8.params=p_titular
+comment8.target=void setTitular(Persona)
+comment9.params=p_saldo
+comment9.target=void setSaldo(double)
+numComments=16

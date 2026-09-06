@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 06 17:11:56 ART 2026
+comment0.target=Banco
+comment0.text=\r\n Clase Ejecutable para las clases CajaDeAhorro y CuentaCorriente.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 31/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Instancia mediante valores ingresados por teclado los datos de una persona titular\r\n y su cuenta corriente y caja de ahorro. Se implementa mediante varios switch case un men\u00FA interactivo\r\n que permite probar todos los m\u00E9todos de las clases libremente.\r\n
+numComments=2

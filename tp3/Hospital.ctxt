@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Sep 06 17:21:19 ART 2026
+comment0.target=Hospital
+comment0.text=\r\n Clase que representa un Hospital, con un nombre y director a cargo.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 31/08/2026\r\n
+comment1.params=p_hospital p_director
+comment1.target=Hospital(java.lang.String, java.lang.String)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE HOSPITAL\r\n \r\n @param p_hospital\: String - nombre del hospital.\r\n @param p_director\: String - nombre del director del hospital.\r\n
+comment2.params=p_hospital
+comment2.target=void setNombreHospital(java.lang.String)
+comment3.params=p_director
+comment3.target=void setNombreDirector(java.lang.String)
+comment4.target=java.lang.String getNombreHospital()
+comment5.target=java.lang.String getNombreDirector()
+comment6.params=p_paciente
+comment6.target=void consultaDatosFiliatorios(Paciente)
+comment6.text=\r\n Imprime en pantalla los datos del hospital, recibe un paciente por par\u00E1metro\r\n y muestra sus datos junto a los del hospital.\r\n \r\n @param p_paciente\: Paciente - paciente del que sus datos son mostrados.\r\n
+numComments=7

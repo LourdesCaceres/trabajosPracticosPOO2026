@@ -1,0 +1,36 @@
+#BlueJ class context
+#Sun Sep 06 16:54:26 ART 2026
+comment0.target=Persona
+comment0.text=\r\n Modificaci\u00F3n de la clase Persona, cambia uno de los atributos que solian ser de tipo\r\n int por uno de tipo Calendar. Agrega adem\u00E1s un m\u00E9todo para saber si es el cumplea\u00F1os de la persona.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 2.0 - 01/09/2026\r\n
+comment1.params=p_dni p_nombre p_apellido p_anio
+comment1.target=Persona(int, java.lang.String, java.lang.String, int)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE PERSONA\: constructor anterior, usa el a\u00F1o de nacimiento.\r\n \r\n @param p_dni\: int - dni de la persona.\r\n @param p_nombre\: String - nombre de la persona.\r\n @param p_apellido\: String - apellido de la persona.\r\n @param p_anio\: int - a\u00F1o de nacimiento de la persona.\r\n
+comment10.target=java.lang.String getApellido()
+comment11.target=int getAnioNacimiento()
+comment12.target=java.util.Calendar getFechaNacimiento()
+comment13.target=int edad()
+comment13.text=\r\n Calcula la edad de la persona restando el a\u00F1o de nacimiento al a\u00F1o actual.\r\n \r\n @return edad calculada de la persona.\r\n
+comment14.target=java.lang.String nomYApe()
+comment14.text=\r\n Concatena el nombre y apellido de la persona.\r\n \r\n @return cadena formada.\r\n
+comment15.target=java.lang.String apeYNom()
+comment15.text=\r\n Concatena el apellido y nombre de la persona.\r\n \r\n @return cadena formada.\r\n
+comment16.target=void mostrar()
+comment16.text=\r\n Imprime en pantalla los datos de la persona.\r\n Imprime su nombre completo, dni y edad.\r\n
+comment17.target=boolean esCumplea\u00F1os()
+comment17.text=\r\n Verifica si coincide la fecha de nacimiento con la fecha actual\r\n para saber si es su cumplea\u00F1os. Se debe verificar que sea el mismo mes y dia.\r\n \r\n @return verdadero o falso seg\u00FAn se cumplen las condiciones.\r\n
+comment2.params=p_dni p_nombre p_apellido p_fecha
+comment2.target=Persona(int, java.lang.String, java.lang.String, java.util.Calendar)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE PERSONA\: usa la fecha completa de nacimiento.\r\n \r\n @param p_dni\: int - dni de la persona.\r\n @param p_nombre\: String - nombre de la persona.\r\n @param p_apellido\: String - apellido de la persona.\r\n @param p_fecha\: Calendar - fecha de nacimiento de la persona.\r\n
+comment3.params=p_dni
+comment3.target=void setDNI(int)
+comment4.params=p_nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.params=p_apellido
+comment5.target=void setApellido(java.lang.String)
+comment6.params=p_anio
+comment6.target=void setAnioNacimiento(int)
+comment7.params=p_fecha
+comment7.target=void setFechaNacimiento(java.util.Calendar)
+comment8.target=int getDNI()
+comment9.target=java.lang.String getNombre()
+numComments=18

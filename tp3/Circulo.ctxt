@@ -1,26 +1,31 @@
 #BlueJ class context
-#Mon Aug 24 20:19:41 ART 2026
+#Sun Sep 06 16:45:55 ART 2026
 comment0.target=Circulo
-comment0.text=\r\n Write a description of class Circulo here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 24/08/2026\r\n
+comment0.text=\r\n La clase Circulo se dise\u00F1a con el prop\u00F3sito de modelar distintos circulos tomando\r\n como base un punto sobre los ejes definido a trav\u00E9s de la clase Punto definida\r\n en el TP anterior.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 24/08/2026\r\n
 comment1.params=p_radio p_centro
 comment1.target=Circulo(double, Punto)
-comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE CIRCULO\r\n
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE CIRCULO\: para el caso de que existe un punto centor y un radio.\r\n \r\n @param p_radio\: double - radio del circulo.\r\n @param p_centro\: Punto - punto centro del circulo.\r\n
 comment10.target=void caracteristicas()
+comment10.text=\r\n M\u00E9todo caracter\u00EDsticas()\: muestra en pantalla los valores del centro del circulo (en coordenadas),\r\n su radio, superficie y per\u00EDmetro.\r\n \r\n
 comment11.params=p_otroCirculo
 comment11.target=double distanciaA(Circulo)
+comment11.text=\r\n M\u00E9todo distanciaA()\: recibe por par\u00E1metro un circulo del cual se saca su centro (atributo de clase Punto)\r\n y se utiliza el m\u00E9todo distanciaA de la clase Punto que compara los valores x e y de ambos puntos y\r\n calcula su distancia. La distancia entre los puntos de centro de los circulos representa la distancia total\r\n entre ambos circulos.\r\n \r\n @param p_otroCirculo\: Circulo - entra por par\u00E1metro otro c\u00EDrculo con un punto centro y un radio.\r\n @return this.getCentro().distanciaA(otroCentro)\: double - devuelve la distancia entre ambos circulos.\r\n \r\n
 comment12.params=p_otroCirculo
 comment12.target=Circulo elMayor(Circulo)
+comment12.text=\r\n Compara la superficie entre dos circulos, uno entra por par\u00E1metro y el\r\n otro es el de la clase. Mediante un if, devuelve el mayor.\r\n \r\n @param p_otroCirculo\: Circulo - circulo que entra por p\u00E1rametro.\r\n @return el circulo con mayor superficie.\r\n
 comment2.target=Circulo()
-comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE CIRCULO\r\n
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE CIRCULO\: sin par\u00E1metros, crea un circulo en (0,0) con radio 0.\r\n
 comment3.params=p_radio
 comment3.target=void setRadio(double)
-comment3.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
 comment4.params=p_centro
 comment4.target=void setCentro(Punto)
 comment5.target=double getRadio()
 comment6.target=Punto getCentro()
 comment7.params=p_dx p_dy
 comment7.target=void desplazar(double, double)
+comment7.text=\r\n M\u00E9todo desplazar()\: recibe por par\u00E1metros los desplazamientos sobre los ejes, asignando\r\n los nuevos valores a las coordenadas del punto centro.\r\n \r\n @param p_dx\: double - representa el desplazamiento sobre el eje x.\r\n @param p_dy\: double - representa el desplazamiento sobre el eje y.\r\n \r\n
 comment8.target=double perimetro()
+comment8.text=\r\n M\u00E9todo perimetro()\: calcula el perimetro del circulo a partir de la f\u00F3rmula\r\n "PI * radio^2" y lo retorna.\r\n \r\n @return perimetro\: double - devuelve el perimetro calculado.\r\n \r\n
 comment9.target=double superficie()
+comment9.text=\r\n M\u00E9todo perimetro()\: calcula la superficie del circulo a partir de la f\u00F3rmula\r\n "2 * PI * radio" y lo retorna.\r\n \r\n @return superficie\: double - devuelve la superficie calculada.\r\n \r\n
 numComments=13

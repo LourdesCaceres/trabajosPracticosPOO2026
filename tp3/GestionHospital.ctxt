@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 06 17:23:13 ART 2026
+comment0.target=GestionHospital
+comment0.text=\r\n Clase ejecutable para las clases Hospital, Paciente y Localidad.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 31/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Instancia por teclado un objeto de la clase Hospital,\r\n luego instancia un objeto Paciente con sus debidas localidades\r\n de nacimiento y residencia. Finalmente muestra los datos por pantalla.\r\n
+numComments=2

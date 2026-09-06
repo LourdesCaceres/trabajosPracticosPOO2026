@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 06 16:41:49 ART 2026
+comment0.target=GestionStock
+comment0.text=\r\n Clase ejecutable para la clase Producto.\r\n Prueba los metodos de la clase mediante constantes.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 24/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Instancia un laboratorio y un producto mediante constantes, imprime resultados.\r\n \r\n
+numComments=2
