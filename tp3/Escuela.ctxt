@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sun Sep 06 07:28:30 ART 2026
+comment0.target=Escuela
+comment0.text=\r\n Clase que representa la informacion de una Escuela, y los docente que trabaja en ella\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 31/08/2026\r\n
+comment1.params=p_nombre p_domicilio p_director
+comment1.target=Escuela(java.lang.String, java.lang.String, java.lang.String)
+comment1.text=\r\n Constructor de objetos de la clase Escuela\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment3.params=p_domicilio
+comment3.target=void setDomicilio(java.lang.String)
+comment4.params=p_director
+comment4.target=void setDirector(java.lang.String)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.lang.String getDomicilio()
+comment7.target=java.lang.String getDirector()
+comment8.params=p_docente
+comment8.target=void imprimirRecibo(Docente)
+comment8.text=\r\n Imprime por pantalla la imformacion relacionada con el cada objeto Docente, y el detallae del sueldo\r\n \r\n @param  p_docente de tipo Docente\r\n
+numComments=9

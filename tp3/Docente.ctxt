@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Sep 06 07:28:26 ART 2026
+comment0.target=Docente
+comment0.text=\r\n Clase que representa la abstracci\u00F3n de un Docente que trabaja en una Escuela.\r\n Permite la registrar su nombre, y calcular el monto de sueldo. \r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 31/08/2026\r\n
+comment1.params=p_nombre p_grado p_sueldo p_asignacion
+comment1.target=Docente(java.lang.String, java.lang.String, double, double)
+comment1.text=\r\n Constructor de la clase Docente\r\n
+comment10.target=double calcularSueldo()
+comment10.text=\r\n Calcula el sueldo total de cada docente, sumando el basico mas la asignacion familiar\r\n \r\n @return  el monto total del sueldo \r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment3.params=p_grado
+comment3.target=void setGrado(java.lang.String)
+comment4.params=p_sueldo
+comment4.target=void setSueldoBasico(double)
+comment5.params=p_asignacion
+comment5.target=void setAsignacionFamiliar(double)
+comment6.target=java.lang.String getNombre()
+comment7.target=java.lang.String getGrado()
+comment8.target=double getSueldoBasico()
+comment9.target=double getAsigFamiliar()
+numComments=11
