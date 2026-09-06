@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sat Sep 05 17:44:18 ART 2026
+comment0.target=Punto
+comment0.text=\r\n La clase Punto representa un punto en un sistema de ejes cartesianos para posterior uso en trabajos de figuras geom\u00E9tricas.\r\n Se instancia de dos maneras seg\u00FAn si el punto est\u00E1 en el origen o tiene valores de x e y. Se dise\u00F1an m\u00E9todos para desplazar,\r\n escribir en forma de coordenadas y mostrar los valores.\r\n \r\n @author Chavez, Tob\u00EDas Acdel y Caceres Lourdes G.\r\n @version 2.0 24/08/2026\r\n
+comment1.target=Punto()
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE PUNTO\: para el caso de que el punto est\u00E9 en el origen (0,0).\r\n
+comment10.params=p_ptoDistante
+comment10.target=double distanciaA(Punto)
+comment10.text=\r\n Calcula la distancia entre el punto actual y otro punto que pasa \r\n como par\u00E1metro. Utilizando la formula de pit\u00E1goras.\r\n \r\n @param p_ptoDistante de la clase Punto\r\n @return pitagoras, resultado de calcular la distancia entre los dos puntos.\r\n
+comment2.params=p_x p_y
+comment2.target=Punto(double, double)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE PUNTO\: para el caso en que \r\n el punto tenga valores distintos a 0.\r\n \r\n @param p_x \r\n @param p_y\r\n
+comment3.target=double getX()
+comment4.target=double getY()
+comment5.params=p_x
+comment5.target=void setX(double)
+comment6.params=p_y
+comment6.target=void setY(double)
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment7.text=\r\n Desplaza el punto original la distancia (incremento) que recibe por \r\n par\u00E1metro dando por resultado nuevas coordenadas.\r\n \r\n @param p_dx incremento de x\r\n @param p_dy incremento de y\r\n
+comment8.target=java.lang.String coordenadas()
+comment8.text=\r\n Escribe los valores de los ejes x e y como coordenadas\r\n \r\n @return cadena con el formato "(x, y)"\r\n
+comment9.target=void mostrar()
+comment9.text=\r\n M\u00E9todo que imprime un mensaje en pantalla donde se detallan los \r\n valores de los ejes x e y para el punto.\r\n
+numComments=11

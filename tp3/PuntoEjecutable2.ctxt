@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sat Sep 05 17:45:18 ART 2026
+comment0.target=PuntoEjecutable2
+comment0.text=\r\n Clase ejecutable para intanciar obtetos y probar los m\u00E9todos de comportamiento,\r\n recibiendo sus datos por argumentos del main.\r\n \r\n puntos x1 y1 (indices 0 y 1) | puntos x2 y2 (indices 2 y 3) | \r\n incremento dx dy (indices 4 y5).\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 24/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

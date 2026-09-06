@@ -1,0 +1,31 @@
+#BlueJ class context
+#Sat Sep 05 17:44:20 ART 2026
+comment0.target=Rectangulo
+comment0.text=\r\n Representa la abstraccion de una figura geom\u00E9trica (rect\u00E1ngulo) en el planp,\r\n definida por un punto de origen (de la clase Punto), un ancho y un alto.\r\n \r\n @author Lourdes Gabriela Caceres\r\n @version 1.0 27/08/2026\r\n
+comment1.params=p_ancho p_alto
+comment1.target=Rectangulo(double, double)
+comment1.text=\r\n 1er CONSTRUCTOR de la clase Rectangulo\: para el caso en que el\r\n origen se encuentra en el punto (0,0), y solo recibe las dimensiones (ancho-alto)\r\n \r\n @param p_ancho\r\n @param p_alto\r\n
+comment10.target=void caracteristicas()
+comment10.text=\r\n Imprime en pantalla las caracteristicas del rectangulo\:\r\n origen, alto y ancho. Asi como su superficie y el per\u00EDmetro\r\n
+comment11.target=double perimetro()
+comment12.target=double superficie()
+comment13.params=otroRectangulo
+comment13.target=double distanciaA(Rectangulo)
+comment14.params=otroRectangulo
+comment14.target=Rectangulo elMayor(Rectangulo)
+comment2.params=p_origen p_ancho p_alto
+comment2.target=Rectangulo(Punto, double, double)
+comment2.text=\r\n 2do CONSTRUCTOR de la clase Rectangulo\: para el caso ...\r\n \r\n @param p_origen\r\n @param p_ancho\r\n @param p_alto\r\n
+comment3.target=Punto getOrigen()
+comment4.target=double getAncho()
+comment5.target=double getAlto()
+comment6.params=p_origen
+comment6.target=void setOrigen(Punto)
+comment7.params=p_ancho
+comment7.target=void setAncho(double)
+comment8.params=p_alto
+comment8.target=void setAlto(double)
+comment9.params=p_dx p_dy
+comment9.target=void desplazar(double, double)
+comment9.text=\r\n \r\n
+numComments=15
