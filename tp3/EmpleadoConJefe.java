@@ -1,5 +1,3 @@
-package archivosJava;
-
 import java.util.*;
 import java.util.GregorianCalendar;
 /**
@@ -7,8 +5,8 @@ import java.util.GregorianCalendar;
  * actualizada en ejercicios anteriores. Esta nueva clase incluye un atributo jefe que será
  * del tipo de la propia clase.
  * 
- * @author Chavez, Tobías Acdel 
- * @version 1.0 - 01/09/2026
+ * @author Chavez, Tobías Acdel y Caceres Lourdes G.
+ * @version 3.0 - 01/09/2026
  */
 public class EmpleadoConJefe
 {
