@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sun Sep 06 20:48:37 ART 2026
+comment0.target=RegistroCivil
+comment0.text=\r\n Clase ejecutable para instanciar objetos Hombre y Mujer; probar los m\u00E9todos y\r\n verificar la consistencia referencial entre ambos (0..1).\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 06/09/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
