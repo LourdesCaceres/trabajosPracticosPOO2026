@@ -13,16 +13,14 @@ public class PuntoEjecutable{
     
     public static void main (String args []){
     
-    //Instanciacion del primer punto (indices 0 y 1)
+    //Instanciacion del primer punto, en el origen (0,0)
     Punto punto1 = new Punto();
-    punto1.setx(Double.parseDouble(args[0]);
-    punto2.setY(Double.parseDouble(args[1]);
     
-    //intanciación del segundo punto (indices 2 y 3)
-    Punto punto2 = new Punto(Double.parseDouble(args[2]), 
-                                Double.parseDouble(args[3]));
+    //intanciación del segundo punto (indices 0 y 1)
+    Punto punto2 = new Punto(Double.parseDouble(args[0]), 
+                                Double.parseDouble(args[1]));
                                 
-    punto1.desplazar(Double.parseDouble(args[4], Double.parseDouble(args[5]);
+    punto1.desplazar(Double.parseDouble(args[2]), Double.parseDouble(args[3]));
     punto1.mostrar();
     
     System.out.print("\nLas coordenadas del punto 2 son: "+punto2.coordenadas());
