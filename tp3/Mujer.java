@@ -82,26 +82,32 @@ public class Mujer {
      * 
      * @param p_hombre instancia de la clase Hombre
      */
-    public void casarseCon(Hombre p_hombre){
-        if(p_hombre != null && this.getEsposo() != p_hombre){
+    public void casarseCon(Hombre p_hombre) {
+        if (p_hombre != null && this.getEsposo() != p_hombre) {
             this.setEsposo(p_hombre);
-            this.setEstadoCivil("Casada");    
-            p_hombre.casarseCon(this);     // Sincroniza al cónyuge evadiendo recursión infinita
-        }else{
-            System.out.print("\n ================ NO SE PUEDE REALIZAR ESTE TRAMITE ================");
+            this.setEstadoCivil("Casada");
+        
+        // Corta la recursión: notifica al hombre SOLO si él aún no la tiene como esposa
+            if (p_hombre.getEsposa() != this) {
+                p_hombre.casarseCon(this);
+            }
         }
     }
     /**
      * Deshace la conexion (divorcio) entre las dos instancias Hombre y Mujer
      */
-    public void divorcio(){
-        if(this.getEsposo() == null){
-            throw new IllegalArgumentException("No se puede realizar este trámite: no posee esposo");
+    public void divorcio() {
+        if (this.getEsposo() != null) {
+            Hombre exEsposo = this.getEsposo();
+            this.setEsposo(null);
+            this.setEstadoCivil("Divorciada");        
+        // Sincroniza al cónyuge SOLO si él todavía mantiene la referencia
+            if (exEsposo.getEsposa() != null) {
+                exEsposo.divorcio();
+            }
+        } else {
+            System.out.println("\n ================ NO SE PUEDE REALIZAR ESTE TRAMITE ================");
         }
-        Hombre exEsposo = this.getEsposo();
-        this.setEsposo(null);
-        this.setEstadoCivil("Divorciada");
-        exEsposo.divorcio();
     }
     /**
      * Retorna la representación concatenada de los datos filiatorios.
