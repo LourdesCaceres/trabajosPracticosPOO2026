@@ -1,6 +1,6 @@
-****REGLAS DE NEGOCIO****
+#####****REGLAS DE NEGOCIO****#####
 
-****Explícitas****
+****_Explícitas_****
 
 ****RN.01:**** Un vendedor puede realizar muchas ventas. Cada venta es realizada por un único vendedor.
 
