@@ -1,6 +1,6 @@
 # ****REGLAS DE NEGOCIO**** 
 
-****_Explícitas_****
+### ****_Explícitas_****
 
 ****RN.01:**** Un vendedor puede realizar muchas ventas. Cada venta es realizada por un único vendedor.
 
@@ -20,7 +20,7 @@
 
 ****RN.09:**** El precio unitario registrado en cada renglón de venta es el vigente al momento de la operación y permanece fijo en el comprobante, independientemente de futuras modificaciones al precio de lista del producto.
 
-****Implícitas****
+### ****_Implícitas_****
 
 ****RN.10:**** Al confirmarse una venta, el sistema descuenta automáticamente del stock la cantidad vendida de cada producto.
 
