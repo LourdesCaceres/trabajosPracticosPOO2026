@@ -1,4 +1,4 @@
-#####****REGLAS DE NEGOCIO****#####
+#*REGLAS DE NEGOCIO*#
 
 ****_Explícitas_****
 
