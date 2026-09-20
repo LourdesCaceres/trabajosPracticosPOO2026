@@ -1,14 +1,18 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 /**
- * Write a description of class Banco here.
+ * Clase ejecutable para probar las funcionalidades de la clase Banco
  * 
  * @author Lourdes G. Caceres
  * @version 1.0 07/09/2026
  * 
  */
 public class AplicacionBanco {
-    
+    /**
+     * Solicita por consola los datos para instanciar un objeto Empleado.
+     * @param p_texto Instancia de Scanner para la lectura de datos.
+     * @return Nuevo objeto Empleado inicializado.
+     */    
     public static Empleado datosEmpleado(Scanner p_texto){
         
         System.out.print("----------------- DATOS DEL EMPLEADO: ");
