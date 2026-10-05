@@ -1,0 +1,10 @@
+# Compilados
+*.class
+bin/
+out/
+target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
