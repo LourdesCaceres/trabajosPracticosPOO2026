@@ -1,0 +1,37 @@
+#BlueJ class context
+#Mon Oct 05 18:11:59 ART 2026
+comment0.target=Empleado
+comment0.text=\r\n La clase \r\n \r\n @author Lourdes Gabriela Caceres \r\n @version 1.0 24/08/2026\r\n @version 2.0 03/09/2026\r\n @version 3.0 28/09/2026\r\n
+comment1.params=p_dni p_cuil p_apellido p_nombre p_anioNac p_sueldo p_anioIng
+comment1.target=Empleado(int, long, java.lang.String, java.lang.String, int, double, int)
+comment1.text=\r\n 1er constructor de la clase Empleado \r\n
+comment10.params=p_anio
+comment10.target=void setAnioIngreso(int)
+comment11.target=int antiguedad()
+comment11.text=\r\n calcula la cantidad de a\u00F1os de antig\u00FCedad a partir del a\u00F1o actual\r\n \r\n @return la diferencia del a\u00F1o actual y el a\u00F1o de ingreso\r\n
+comment12.target=double descuento()
+comment12.text=\r\n * Calcula el valor del descuento sobre el sueldo b\u00E1sico correspondiente al 2%.\r\n \r\n @return Monto del descuento.\r\n
+comment13.target=double adicional()
+comment13.text=\r\n Calcula el importe adicional al sueldo seg\u00FAn los a\u00F1os de antig\u00FCedad\:\r\n - Menos de 2 a\u00F1os\: 2% del sueldo b\u00E1sico.\r\n - De 2 a 9 a\u00F1os\: 4% del sueldo b\u00E1sico.\r\n - 10 a\u00F1os o m\u00E1s\: 6% del sueldo b\u00E1sico.\r\n \r\n @return Monto del adicional.\r\n
+comment14.target=double sueldoNeto()
+comment14.text=\r\n Calcula el total del sueldo neto del empleado\: \r\n Sueldo base mas el adicional menos el descuento.\r\n \r\n @return el valor del sueldo neto\r\n
+comment15.target=void mostrar()
+comment15.text=\r\n Muestra en pantalla el detalle del empleado\: \r\n Nombre, CUIL, Antig\u00FCedad y Sueldo Neto.\r\n
+comment16.target=java.lang.String mostrarLinea()
+comment16.text=\r\n Concatena y muestra la informaci\u00F3n importante en una sola l\u00EDnea.\r\n \r\n @return una cadena con el mesaje CUIL Apellido Nombre sueldoNeto\r\n
+comment17.target=boolean esAniversario()
+comment17.text=\r\n metodo esAniversario \r\n \r\n @return \r\n
+comment2.params=p_dni p_cuil p_apellido p_nombre p_sueldo p_anioNac p_fecha
+comment2.target=Empleado(int, long, java.lang.String, java.lang.String, double, java.util.Calendar, java.util.Calendar)
+comment2.text=\r\n 2do constructor de la clase Empleado\r\n
+comment3.target=long getCuil()
+comment4.target=double getSueldo()
+comment5.target=int getAnioIngreso()
+comment6.target=java.util.Calendar getFechaIngreso()
+comment7.params=p_cuil
+comment7.target=void setCuil(long)
+comment8.params=p_sueldo
+comment8.target=void setSueldo(double)
+comment9.params=p_fecha
+comment9.target=void setFechaIngreso(java.util.Calendar)
+numComments=18

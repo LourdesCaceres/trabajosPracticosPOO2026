@@ -1,0 +1,35 @@
+#BlueJ class context
+#Mon Oct 05 18:15:47 ART 2026
+comment0.target=Elipse
+comment0.text=\r\n SuperClase Elipse\r\n @author Lourdes G. Caceres\r\n @version 1.0 - 28/09/2026\r\n
+comment1.params=p_ejeMayor p_ejeMenor p_centro
+comment1.target=Elipse(double, double, Punto)
+comment1.text=\r\n \r\n
+comment10.target=void caracteristicas()
+comment10.text=\r\n\r\n
+comment11.params=p_dx p_dy
+comment11.target=void desplazar(double, double)
+comment11.text=\r\n \r\n
+comment12.target=double superficie()
+comment12.text=\r\n  \r\n
+comment13.params=p_otraElipse
+comment13.target=double distanciaA(Elipse)
+comment13.text=\r\n  \r\n
+comment14.params=p_otraElipse
+comment14.target=Elipse elMayor(Elipse)
+comment14.text=\r\n \r\n
+comment2.params=p_ejeMayor p_ejeMenor
+comment2.target=Elipse(double, double)
+comment2.text=\r\n \r\n
+comment3.params=p_ejeMayor
+comment3.target=void setEjeMayor(double)
+comment4.params=p_ejeMenor
+comment4.target=void setEjeMenor(double)
+comment5.params=p_centro
+comment5.target=void setCentro(Punto)
+comment6.target=double getEjeMayor()
+comment7.target=double getEjeMenor()
+comment8.target=Punto getCentro()
+comment9.target=java.lang.String nombreFigura()
+comment9.text=\r\n \r\n
+numComments=15
