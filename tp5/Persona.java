@@ -119,9 +119,8 @@ public class Persona{
      * Imprime su nombre completo, dni y edad.
      */
     public void mostrar(){
-        System.out.println("Nombre y Apellido: " + nomYApe());
-        System.out.print("DNI: " + getDNI());
-        System.out.println("\tEdad: " + edad());
+        System.out.print("\nNombre y Apellido: " + nomYApe());
+        System.out.print("\nDNI: " + getDNI()+"\tEdad: " + edad());
     }
     
     /**
