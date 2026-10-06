@@ -35,5 +35,6 @@ public class PuntoEjecutable
          System.out.println(punto1.coordenadas());
          punto1.mostrar();
         
+         teclado.close();
     }
 }
