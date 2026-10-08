@@ -40,7 +40,6 @@ public class Banco {
      * @param p_nroSucursal Número identificador de la sucursal.
      * @param p_empleados Colección de tipo ArrayList de objetos Empleado.
      */
-     */
     public Banco(String p_nombre, Localidad p_localidad, int p_nroSucursal, 
                     ArrayList<Empleado> p_empleados){
             this.setNombre(p_nombre);
