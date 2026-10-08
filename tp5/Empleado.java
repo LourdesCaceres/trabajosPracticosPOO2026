@@ -18,9 +18,9 @@ public class Empleado extends Persona{
     /**
      * 1er constructor de la clase Empleado 
      */
-    public Empleado(int p_dni, long p_cuil, String p_apellido, String p_nombre,int p_anioNac,
+    public Empleado(int p_dni, long p_cuil, String p_nombre, String p_apellido, int p_anioNac,
                     double p_sueldo, int p_anioIng){
-        super(p_dni, p_apellido, p_nombre, p_anioNac);
+        super(p_dni, p_nombre, p_apellido, p_anioNac);
         this.setCuil(p_cuil);
         this.setSueldo(p_sueldo);
         this.setAnioIngreso(p_anioIng);
@@ -28,9 +28,9 @@ public class Empleado extends Persona{
     /**
      * 2do constructor de la clase Empleado
      */
-    public Empleado(int p_dni, long p_cuil, String p_apellido, String p_nombre, double p_sueldo, 
+    public Empleado(int p_dni, long p_cuil, String p_nombre, String p_apellido, double p_sueldo, 
                      Calendar p_anioNac, Calendar p_fecha){
-        super(p_dni, p_apellido, p_nombre, p_anioNac);
+        super(p_dni, p_nombre, p_apellido, p_anioNac);
         this.setCuil(p_cuil);
         this.setSueldo(p_sueldo);
         this.setFechaIngreso(p_fecha);
