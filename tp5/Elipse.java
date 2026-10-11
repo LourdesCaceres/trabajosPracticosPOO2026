@@ -87,7 +87,7 @@ public class Elipse {
         System.out.println("Superficie: " + this.superficie());
     }
     /**
-     * 
+     * Desplaza el centro de la elipse segun el valor indicado
      * 
      * @param p_dx Valor de desplazamiento del eje X
      * @param p_dy Valor de desplazamiento del eje Y
@@ -99,8 +99,7 @@ public class Elipse {
      * Calcula la distancia entre dos elipses, a partir de los puntos de centro de ambas.
      * 
      * @param p_otraElipse 
-     * @return this.getCentro().distanciaA(otroCentro): double - devuelve la distancia entre ambas elipses.
-     * 
+     * @return (double) devuelve la distancia entre ambas elipses.
      */
     public double distanciaA(Elipse p_otraElipse){
         Punto otroCentro = p_otraElipse.getCentro();
@@ -108,10 +107,10 @@ public class Elipse {
     }
     
     /**
-     * Compara la superficie entre dos elipses
+     * Compara la superficie entre dos elipses, retornando la mayor.
      * 
-     * @param p_otraElipse
-     * @return el circulo con mayor superficie.
+     * @param p_otraElipse 
+     * @return (objeto Elipse) la elipse con mayor superficie.
      */
     public Elipse elMayor(Elipse p_otraElipse){
         if(this.superficie() > p_otraElipse.superficie()){
