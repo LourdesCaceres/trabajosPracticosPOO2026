@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Oct 18 22:59:23 ART 2026
+comment0.target=AplicacionFacultad
+comment0.text=\r\n Clase ejecutable para la clase Facultad y todas las clases que se toman\r\n en consideraci\u00F3n.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 18/10/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n El c\u00F3digo combina partes con ingreso por teclad y otras con constantes para reducir\r\n c\u00F3digo y poder probar la mayor parte de funcionalidades. Se istancian 6 cargos y se listan\r\n de formas distintas, probando cantidades erroneas (deben ser 3 cargos). Se pide informaci\u00F3n sobre la\r\n facultad y los datos personales de los profesores, se instancia la facultad y se prueba a listar y hacer la nomina.\r\n
+numComments=2

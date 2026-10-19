@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 18 23:20:30 ART 2026
+comment0.target=Cuadrado
+comment0.text=\r\n La clase Cuadrado es una extensi\u00F3n (especializaci\u00F3n) para la clase Rectangulo, los lados de la figura\r\n son iguales y se redefinen funciones como nombreFigura() y caracteristicas().\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 05/10/2026\r\n
+comment1.params=p_origen p_ancho p_alto p_lado
+comment1.target=Cuadrado(Punto, double, double, double)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Cuadrado\r\n \r\n @param p_origen\: Punto - punto origen de la figura.\r\n @param p_ancho\: double - valor del ancho de la figura.\r\n @param p_alto\: double - valor de alto de la figura.\r\n @param p_lado\: double - valor de los lados del cuadrado.\r\n
+comment2.params=p_lado
+comment2.target=void setLado(double)
+comment3.target=double getLado()
+comment4.target=java.lang.String nombreFigura()
+comment4.text=\r\n Devuelve un String con el nombre de la figura de la clase.\r\n \r\n @return String con el nombre de la figura.\r\n
+comment5.target=void caracteristicas()
+comment5.text=\r\n Imprime en pantalla las caracter\u00EDsticas del cuadrado, indicando el nombre de la figura,\r\n las coordenadas de su punto origen, el valor de sus lados, su superficie y el perimetro.\r\n
+numComments=6

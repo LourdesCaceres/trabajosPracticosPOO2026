@@ -1,0 +1,25 @@
+#BlueJ class context
+#Sun Oct 18 21:15:33 ART 2026
+comment0.target=Gerencia
+comment0.text=\r\n Write a description of class Gerencia here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 18/10/2026\r\n
+comment1.params=p_nombre
+comment1.target=Gerencia(java.lang.String)
+comment1.text=\r\n Constructor for objects of class Gerencia\r\n
+comment10.target=void liquidar()
+comment11.target=void mostrarLiquidacion()
+comment2.params=p_nombre p_alojamientos
+comment2.target=Gerencia(java.lang.String, java.util.ArrayList)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_alojamientos
+comment4.target=void setAlojamientos(java.util.ArrayList)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.util.ArrayList getAlojamientos()
+comment7.params=p_alojamiento
+comment7.target=boolean agregarAlojamiento(Alojamiento)
+comment7.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment8.params=p_alojamiento
+comment8.target=boolean quitarAlojamiento(Alojamiento)
+comment9.params=tipoAlojamiento
+comment9.target=int contarAlojamiento(java.lang.String)
+numComments=12

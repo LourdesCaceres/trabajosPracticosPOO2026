@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Oct 18 22:02:50 ART 2026
+comment0.target=SemiExclusivo
+comment0.text=\r\n Clase hija de Cargo, representa el nivel de cargo medio, permitiendo tener\r\n horas de investigaci\u00F3n adem\u00E1s de las de docencia.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n
+comment1.params=p_nombre p_sueldo p_anio p_horasDoc p_horasInv
+comment1.target=SemiExclusivo(java.lang.String, double, int, int, int)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE SemiExclusivo\: reutiliza el constructor de la clase padre.\r\n \r\n @param p_nombre\: String - nombre del cargo.\r\n @param p_sueldo\: double - sueldo b\u00E1sico del cargo.\r\n @param p_anio\: int - a\u00F1o en el cual ingres\u00F3.\r\n @param p_horasDoc\: int - las horas de docencia sobre el cargo.\r\n @param p_horasInv\: int - horas designadas a investigacion.\r\n
+comment2.params=p_horasInv
+comment2.target=void setHorasInvestigacion(int)
+comment3.target=int getHorasInvestigacion()
+comment4.target=void mostrarCargo()
+comment4.text=\r\n Reutiliza el m\u00E9todo de Cargo y luego agrega las horas de investigaci\u00F3n que\r\n permite tener el cargo semiexclusivo\r\n
+numComments=5

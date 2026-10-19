@@ -1,0 +1,28 @@
+#BlueJ class context
+#Sun Oct 18 22:02:56 ART 2026
+comment0.target=Profesor
+comment0.text=\r\n Abstracci\u00F3n de un profesor, hereda de la clase Persona atributos como su nombre, apellido, DNI y\r\n fecha de nacimiento, agregando un titulo y una lista de cargos en una universidad.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n
+comment1.params=p_dni p_nombre p_apellido p_anio p_titulo p_cargos
+comment1.target=Profesor(int, java.lang.String, java.lang.String, int, java.lang.String, java.util.ArrayList)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Profesor\r\n \r\n @param p_dni\: int - DNI del profesor.\r\n @param p_nombre\: String - nombre del profesor.\r\n @param p_apellido\: String - apellido del profesor.\r\n @param p_anio\: int - a\u00F1o de nacimiento del profesor (usa el segundo constructor de Persona)\r\n @param p_titulo\: String - titulo del profesor.\r\n @param p_cargos\: ArrayList<Cargo> - colecci\u00F3n de m\u00E1ximo 3 cargos del profesor.\r\n
+comment10.target=void mostrar()
+comment10.text=\r\n Sobreescribe el m\u00E9todo mostrar() de la clase padre Persona. Reutiliza\r\n el m\u00E9todo heredado pero agrega los datos del profesor, es decir, titulos, cargos \r\n y su sueldo final.\r\n
+comment11.target=java.lang.String mostrarLinea()
+comment11.text=\r\n Concatena los datos del profesor en una sola l\u00EDnea con este formato\:\r\n "DNI - Nombre y Apellido - Sueldo Total"\r\n \r\n @return cadena concatenada.\r\n
+comment2.params=p_titulo
+comment2.target=void setTitulo(java.lang.String)
+comment3.params=p_cargos
+comment3.target=void setCargos(java.util.ArrayList)
+comment4.target=java.lang.String getTitulo()
+comment5.target=java.util.ArrayList getCargos()
+comment6.target=double sueldoTotal()
+comment6.text=\r\n Calcula, recorriendo la colecci\u00F3n de cargos, el sueldo total del profesor,\r\n que resulta de la suma de los sueldos propios de cada cargo individual.\r\n \r\n @return sueldo total calculado del profesor.\r\n
+comment7.params=p_cargo
+comment7.target=boolean agregarCargo(Cargo)
+comment7.text=\r\n M\u00E9todo propio de las colecciones, agrega un elemento a la misma.\r\n \r\n @param p_cargo\: Cargo - cargo a agregar.\r\n @return true/false seg\u00FAn si se pudo agregar el elemento.\r\n
+comment8.params=p_cargo
+comment8.target=boolean quitarCargo(Cargo)
+comment8.text=\r\n M\u00E9todo propio de las colecciones, quita un elemento de la misma.\r\n \r\n @param p_cargo\: Cargo - cargo a quitar.\r\n @return true/false seg\u00FAn si se pudo quitar el elemento.\r\n
+comment9.target=void listarCargos()
+comment9.text=\r\n Recorre la colecci\u00F3n mediante un objeto colaborador Cargo y una estructura for, \r\n para mostrar los datos de cada cargo, generando una lista final de todos los cargos\r\n del profesor.\r\n
+numComments=12

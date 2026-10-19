@@ -1,0 +1,31 @@
+#BlueJ class context
+#Sun Oct 18 21:54:26 ART 2026
+comment0.target=Cargo
+comment0.text=\r\n La clase cargo es una abstracci\u00F3n de un cargo que puede asumir un profesor universitario\r\n en una facultad, importando el nombre el sueldo asignado, el a\u00F1o en cual ingres\u00F3 y las\r\n horas de docencia.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n \r\n
+comment1.params=p_nombre p_sueldo p_anio
+comment1.target=Cargo(java.lang.String, double, int)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Cargo\: para cuando se trata de un cargo simple, las horas\r\n de docencia se mantiene como constante.\r\n \r\n @param p_nombre\: String - nombre del cargo.\r\n @param p_sueldo\: double - sueldo b\u00E1sico del cargo.\r\n @param p_anio\: int - a\u00F1o en el cual ingres\u00F3.\r\n
+comment10.target=int getHorasDocencia()
+comment11.target=int antiguedad()
+comment11.text=\r\n Calcula la cantidad de a\u00F1os que lleva el profesional en el cargo. Calculado \r\n mediante una resta entre el a\u00F1o de ejcuci\u00F3n del programa y el a\u00F1o de ingreso.\r\n \r\n @return antiguedad calculada del cargo.\r\n
+comment12.target=double adicionalXAntiguedad()
+comment12.text=\r\n Calculo del adicional que se agrega por la antiguedad del cargo.\r\n \r\n @return el resultado del producto entre la antiguedad y el porcentaje adicional (1% del sueldo por a\u00F1o).\r\n
+comment13.target=double sueldoDelCargo()
+comment13.text=\r\n Calcula el sueldo total del cargo al sumar el sueldo b\u00E1sico con\r\n el adicional calculado.\r\n \r\n @return sueldo total calculado.\r\n
+comment14.target=void mostrarCargo()
+comment14.text=\r\n Imprime en pantalla todos los datos del cargo en su manera simple.\r\n
+comment2.params=p_nombre p_sueldo p_anio p_horasDoc
+comment2.target=Cargo(java.lang.String, double, int, int)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE Cargo\: constructor para las clases hijas, las cuales\r\n solo ellas pueden acceder y permiten modificar las horas de docencia.\r\n \r\n @param p_nombre\: String - nombre del cargo.\r\n @param p_sueldo\: double - sueldo b\u00E1sico del cargo.\r\n @param p_anio\: int - a\u00F1o en el cual ingres\u00F3.\r\n @param p_horasDoc\: int - las horas de docencia sobre el cargo.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombreCargo(java.lang.String)
+comment4.params=p_sueldo
+comment4.target=void setSueldoBasico(double)
+comment5.params=p_anio
+comment5.target=void setAnioIngreso(int)
+comment6.params=p_horasDoc
+comment6.target=void setHorasDocencia(int)
+comment7.target=java.lang.String getNombreCargo()
+comment8.target=double getSueldoBasico()
+comment9.target=int getAnioIngreso()
+numComments=15

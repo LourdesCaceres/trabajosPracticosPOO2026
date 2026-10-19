@@ -1,0 +1,29 @@
+#BlueJ class context
+#Sun Oct 18 23:19:54 ART 2026
+comment0.target=Rectangulo
+comment0.text=\r\n Representa la abstraccion de una figura geom\u00E9trica (rect\u00E1ngulo) en el plano,\r\n definida por un punto de origen (de la clase Punto), un ancho y un alto.\r\n La actualizaci\u00F3n 2.0 agrega el m\u00E9todo nombreFigura().\r\n La versi\u00F3n 3.0 vuelve la clase una subclase de la clase abstracta FiguraGeometrica.\r\n \r\n @author Lourdes Gabriela Caceres\r\n @version 1.0 27/08/2026\r\n @version 2.0 05/10/2026\r\n @version 3.0 16/10/2026\r\n
+comment1.params=p_ancho p_alto
+comment1.target=Rectangulo(double, double)
+comment1.text=\r\n 1er CONSTRUCTOR de la clase Rectangulo\: para el caso en que el\r\n origen se encuentra en el punto (0,0), y solo recibe las dimensiones (ancho-alto)\r\n \r\n @param p_ancho\r\n @param p_alto\r\n
+comment10.target=double superficie()
+comment11.params=otroRectangulo
+comment11.target=double distanciaA(Rectangulo)
+comment12.params=otroRectangulo
+comment12.target=Rectangulo elMayor(Rectangulo)
+comment13.target=java.lang.String nombreFigura()
+comment2.params=p_origen p_ancho p_alto
+comment2.target=Rectangulo(Punto, double, double)
+comment2.text=\r\n 2do CONSTRUCTOR de la clase Rectangulo\: para el caso ...\r\n \r\n @param p_origen\r\n @param p_ancho\r\n @param p_alto\r\n
+comment3.target=double getAncho()
+comment4.target=double getAlto()
+comment5.params=p_ancho
+comment5.target=void setAncho(double)
+comment6.params=p_alto
+comment6.target=void setAlto(double)
+comment7.params=p_dx p_dy
+comment7.target=void desplazar(double, double)
+comment7.text=\r\n Desplaza el punto origen del rectangulo mediante un m\u00E9todo interno de la clase Punto.\r\n \r\n @param p_dx\: double - valor a desplazar el eje x\r\n @param p_dy\: double - valor a desplazar el eje y.\r\n
+comment8.target=void caracteristicas()
+comment8.text=\r\n Imprime en pantalla las caracteristicas del rectangulo\:\r\n origen, alto y ancho. Asi como su superficie y el per\u00EDmetro\r\n
+comment9.target=double perimetro()
+numComments=14

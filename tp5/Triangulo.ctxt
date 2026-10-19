@@ -1,0 +1,17 @@
+#BlueJ class context
+#Fri Oct 16 16:52:47 ART 2026
+comment0.target=Triangulo
+comment0.text=\r\n Write a description of class Triangulo here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
+comment1.params=p_base p_altura p_origen
+comment1.target=Triangulo(double, double, Punto)
+comment1.text=\r\n Constructor for objects of class Triangulo\r\n
+comment2.params=p_base
+comment2.target=void setBase(double)
+comment3.params=p_altura
+comment3.target=void setAltura(double)
+comment4.target=double getBase()
+comment5.target=double getAltura()
+comment6.target=java.lang.String nombreFigura()
+comment6.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment7.target=double superficie()
+numComments=8

@@ -1,0 +1,33 @@
+#BlueJ class context
+#Sun Oct 18 18:35:00 ART 2026
+comment0.target=Alojamiento
+comment0.text=\r\n Write a description of class Alojamiento here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
+comment1.params=p_nombre p_precioBase p_diasAlquiler
+comment1.target=Alojamiento(java.lang.String, double, int)
+comment1.text=\r\n Constructor for objects of class Alojamiento\r\n
+comment10.target=java.util.ArrayList getServicios()
+comment11.params=p_servicio
+comment11.target=boolean agregarServicio(Servicio)
+comment11.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment12.params=p_servicio
+comment12.target=boolean quitarServicio(Servicio)
+comment13.params=p_alojamiento
+comment13.target=int contar(java.lang.String)
+comment14.target=void listarServicios()
+comment15.target=double costoServicios()
+comment16.target=double costo()
+comment17.target=void liquidar()
+comment2.params=p_nombre p_precioBase p_diasAlquiler p_servicios
+comment2.target=Alojamiento(java.lang.String, double, int, java.util.ArrayList)
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_precioBase
+comment4.target=void setPrecio(double)
+comment5.params=p_diasAlquiler
+comment5.target=void setDias(int)
+comment6.params=p_servicios
+comment6.target=void setServicios(java.util.ArrayList)
+comment7.target=java.lang.String getNombre()
+comment8.target=double getPrecio()
+comment9.target=int getDiasAlquiler()
+numComments=18

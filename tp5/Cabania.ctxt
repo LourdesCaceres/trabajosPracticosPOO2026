@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Oct 18 20:10:18 ART 2026
+comment0.target=Cabania
+comment0.text=\r\n Write a description of class Cabania here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 18/10/2026\r\n
+comment1.params=p_nombre p_precioBase p_diasAlquiler p_servicios p_nroHabitaciones
+comment1.target=Cabania(java.lang.String, double, int, java.util.ArrayList, int)
+comment1.text=\r\n Constructor for objects of class Cabania\r\n
+comment2.params=p_nroHabitaciones
+comment2.target=void setHabitaciones(int)
+comment3.target=int getHabitaciones()
+comment4.target=double costo()
+comment4.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment5.target=void liquidar()
+comment6.params=p_alojamiento
+comment6.target=int contar(java.lang.String)
+numComments=7

@@ -1,0 +1,29 @@
+#BlueJ class context
+#Sun Oct 18 22:21:55 ART 2026
+comment0.target=Facultad
+comment0.text=\r\n Abstracci\u00F3n de una facultad con una lista de profesores, cada uno con sus cargos asignados.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 07/10/26\r\n
+comment1.params=p_nombre p_profesor
+comment1.target=Facultad(java.lang.String, Profesor)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Facultad\: representa la cardinalidad m\u00EDnima uno.\r\n \r\n @param p_nombre\: String - nombre de la facultad.\r\n @param p_profesor\: Profesor - primer profesor en ser agregado o listado.\r\n
+comment10.target=double totalAPagar()
+comment10.text=\r\n Recorre la lista de profesores y calcula un total a pagar a partir de la\r\n suma de todos los sueldos de los profesores.\r\n \r\n @return saldo total a pagar de la facultad por todos los profesores.\r\n
+comment11.target=void listarProfesorCargos()
+comment11.text=\r\n Mensaje donde se muestra la lista de cargos de cada profesor, junto a sus datos.\r\n
+comment2.params=p_nombre p_profesores
+comment2.target=Facultad(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE Facultad\: representa la cardinalidad m\u00E1xima muchos.\r\n \r\n @param p_nombre\: String - nombre de la facultad.\r\n @param p_profesores\: ArrayList<Profesor> - colecci\u00F3n de profesores.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_profesores
+comment4.target=void setProfesores(java.util.ArrayList)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.util.ArrayList getProfesores()
+comment7.params=p_profesor
+comment7.target=boolean agregarProfesor(Profesor)
+comment7.text=\r\n M\u00E9todo propio de las colecciones, quita un elemento de la misma.\r\n \r\n @param p_profesor\: Profesor - profesor a agregar.\r\n @return true/false seg\u00FAn si se pudo agregar el elemento.\r\n
+comment8.params=p_profesor
+comment8.target=boolean quitarProfesor(Profesor)
+comment8.text=\r\n M\u00E9todo propio de las colecciones, quita un elemento de la misma.\r\n \r\n @param p_profesor\: Profesor - cargo a quitar.\r\n @return true/false seg\u00FAn si se pudo quitar el elemento.\r\n
+comment9.target=void nominaProfesores()
+comment9.text=\r\n Imprime un mensaje con el nombre de la facultad, la lista completa de profesores\r\n y sus cargos. Utiliza un objeto colaborador y un for para recorrer la coleccion de profesores\r\n e imprimir sus datos mediante sus m\u00E9todos. Al final del mensaje se muestra el total a pagar por\r\n todos los profesores.\r\n
+numComments=12

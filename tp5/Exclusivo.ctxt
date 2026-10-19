@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Oct 18 21:59:54 ART 2026
+comment0.target=Exclusivo
+comment0.text=\r\n Clase hija de Cargo, representa el nivel de cargo m\u00E1s alto, permitiendo tener\r\n horas de investigaci\u00F3n y extender horas de docencia o investigaci\u00F3n.\r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version  1.0 - 05/10/2026\r\n
+comment1.params=p_nombre p_sueldo p_anio p_horasDoc p_horasInv p_horasExt
+comment1.target=Exclusivo(java.lang.String, double, int, int, int, int)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Exclusivo\: reutiliza el constructor de la clase padre.\r\n \r\n @param p_nombre\: String - nombre del cargo.\r\n @param p_sueldo\: double - sueldo b\u00E1sico del cargo.\r\n @param p_anio\: int - a\u00F1o en el cual ingres\u00F3.\r\n @param p_horasDoc\: int - las horas de docencia sobre el cargo.\r\n @param p_horasInv\: int - horas designadas a investigacion.\r\n @param p_horasExt\: int - horas de extensi\u00F3n.\r\n
+comment2.params=p_horasInv
+comment2.target=void setHorasInvestigacion(int)
+comment3.params=p_horasExt
+comment3.target=void setHorasExtension(int)
+comment4.target=int getHorasInvestigacion()
+comment5.target=int getHorasExtension()
+comment6.target=void mostrarCargo()
+comment6.text=\r\n Sobreescribe el m\u00E9todo de su clase padre, agregando la informaci\u00F3n extra\r\n del cargo. Reutiliza el m\u00E9todo de Cargo y luego agrega las horas de investigaci\u00F3n y extensi\u00F3n\r\n propias del cargo exclusivo.\r\n
+numComments=7
