@@ -140,5 +140,6 @@ public class EmpleadoConJefeEjecutable
             System.out.print("\n");
             empleado2.mostrarPantalla();
         }
+        teclado.close();
     }
 }

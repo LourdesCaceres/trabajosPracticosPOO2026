@@ -28,8 +28,7 @@ public class CreaFigura {
         Circulo circulo2 = new Circulo(radio2, centro2);
 
         //verificacion de métodos
-        Circulo mayor = circulo1.elMayor(circulo2);
-        mayor.caracteristicas();
+       circulo1.elMayor(circulo2).caracteristicas();
         
         System.out.println("La distancia entre ambos circulos es de: " + circulo1.distanciaA(circulo2));
 

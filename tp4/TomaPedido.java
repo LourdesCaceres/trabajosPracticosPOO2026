@@ -120,5 +120,7 @@ public class TomaPedido
         teclado.nextLine();
         System.out.print('\u000C');
         unPedido.mostrarPedido();
+
+        teclado.close();
     }
 }

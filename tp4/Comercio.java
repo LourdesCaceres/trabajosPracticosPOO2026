@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.*;
 /**
  * La clase Comercio representa una entidad comercial que gestiona una nómina de empleados utilizando
  * una estructura de datos basada en tablas de dispersión (HashMap).
