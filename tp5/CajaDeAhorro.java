@@ -62,7 +62,7 @@ public class CajaDeAhorro extends CuentaBancaria {
      * @return 
      */
     @Override 
-    public String xQueNoPuedeExtraer(double p_importe){
+    public String xQNoPuedeExtraer(double p_importe){
         if(this.puedeExtraer(p_importe) == false && this.getExtraccionesPosibles() <= 0){
             return "No tiene habilitadas más extracciones!";
         }else if(this.puedeExtraer(p_importe) == false && this.getSaldo() < p_importe){
@@ -71,18 +71,18 @@ public class CajaDeAhorro extends CuentaBancaria {
         return "Error Sistema";
     }
     /**
+     * Redefinición del método extraer()
      * 
      * @param p_importe
      * @return true y false
      */
     @Override 
     public boolean extraer(double p_importe){
-        boolean extraccion = super.extraer(p_importe);
-        if(extraccion){
+        if(super.extraer(p_importe)){
             this.setExtraccionesPosibles(this.getExtraccionesPosibles() - 1);
             return true;
         }
-        return extraccion;
+        return false;
     }
     /**
      * Redefinición del método mostrar para la clase CajaDeAhorro

@@ -73,7 +73,7 @@ public abstract class CuentaBancaria {
      * 
      * @param p_importe 
      */
-    public abstract String xQueNoPuedeExtraer(double p_importe);
+    public abstract String xQNoPuedeExtraer(double p_importe);
     
     /**
      * Incrementa el saldo actual de la cuenta tanto como se específica
@@ -97,6 +97,7 @@ public abstract class CuentaBancaria {
             this.setSaldo(getSaldo() - p_importe );
             return true;
         }
+        System.out.print("\n..."+this.xQNoPuedeExtraer(p_importe));
         return false;
     }
     
