@@ -1,4 +1,3 @@
-import java.util.Formatter;
 /**
  * Representa la abstraccion de una figura geométrica (rectángulo) en el plano,
  * definida por un punto de origen (de la clase Punto), un ancho y un alto.
