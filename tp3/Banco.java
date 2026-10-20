@@ -49,7 +49,7 @@ public class Banco
         System.out.println("Ingrese el saldo.");
         double saldo2 = teclado.nextDouble();
         
-        CajaDeAhorro caja1 = new CajaDeAhorro(nroCajaAhorro, saldo2, titular);
+        CajaDeAhorro caja1 = new CajaDeAhorro(nroCajaAhorro, titular, saldo2);
         
         teclado.nextLine();
         System.out.println();
