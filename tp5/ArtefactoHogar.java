@@ -52,7 +52,7 @@ public abstract class ArtefactoHogar{
      * @param p_interes
      * @return monto total (float)
      */
-    public abstract float creditoConAdicional();
+    public abstract float creditoConAdicional(int p_cuotas, float p_interes);
 
     /**
      * imprimir informacion
