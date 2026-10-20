@@ -58,7 +58,7 @@ public abstract class ArtefactoHogar{
      * imprimir informacion
      */
     public void imprimir(){
-        System.out.print("\nMarca: "+this.getMarca()+"\t-\tPrecio: $ "+this.getPrecio()+"\t-\tStock: "+this.getStock());
+        System.out.print("\nMarca: "+this.getMarca()+"   -   Precio: $ "+this.getPrecio()+"   -   Stock: "+this.getStock());
     }
     /**
      * calcular el valor de cada cuota

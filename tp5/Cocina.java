@@ -51,6 +51,25 @@ public class Cocina extends ArtefactoHogar{
     }
 
     /**
+     * Implementacion del método creditoConAdicional.
+     * Para este artefacto no se le calcula ningún adicional
      * 
+     * @param p_cuotas nro de cuotas
+     * @param p_interes valor del interes agregado
      */
+    @Override 
+    public float creditoConAdicional(int p_cuotas, float p_interes){
+        return super.cuotaCredito(p_cuotas, p_interes);
+    }
+    /**
+     * Redefinición del método imprimir(), agrega el encabezado y los datos particulares de una cocina.
+     */
+    @Override
+    public void imprimir(){
+        System.out.print("\n\n**** Cocina ****");
+        super.imprimir();
+        System.out.print("\nHornallas: " + this.getHornallas());
+        System.out.print("\nCalorias: " + this.getCalorias());
+        System.out.print("\nDimensiones: " + this.getDimensiones()+"cm");
+    }
 }

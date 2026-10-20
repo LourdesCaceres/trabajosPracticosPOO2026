@@ -49,4 +49,31 @@ public class Lavarropas extends ArtefactoHogar{
     public boolean getAutomatico(){
         return this.automatico;
     }
+
+    /**
+     * Implementacion del método creditoConAdicional.
+     * Para este artefacto no se le calcula ningún adicional
+     * 
+     * @param p_cuotas nro de cuotas
+     * @param p_interes valor del interes agregado
+     */
+    @Override 
+    public float creditoConAdicional(int p_cuotas, float p_interes){
+        return super.cuotaCredito(p_cuotas, p_interes);
+    }
+    /**
+     * Redefinición del método imprimir(), agrega el encabezado y los datos particulares de un lavarropa.
+     */
+    @Override
+    public void imprimir(){
+        System.out.print("\n\n**** Lavarropa ****");
+        super.imprimir();
+        System.out.print("\nProgramas: " + this.getProgramas());
+        System.out.print("\nKilos: " + this.getKilos());
+        if(this.getAutomatico()){
+            System.out.print("\nAutomatico: Si");
+        }else{
+            System.out.print("\nAutomatico: No");
+        }
+    }
 }

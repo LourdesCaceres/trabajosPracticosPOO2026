@@ -1,15 +1,12 @@
 import java.util.ArrayList;
-import java.util.Locale;
 import java.util.Scanner;
 
-/**
- * Clase ejecutable Comercio. Mantiene la colección de artefactos que ofrece el comercio,
- * simula consultas de crédito de los clientes y ofrece un menú de opciones.
- * La colección es de tipo ArtefactoHogar: contiene cocinas, heladeras y lavarropas, y
- * los mensajes imprimir() y creditoConAdicional() se resuelven según la clase real de cada objeto.
+/**a
+ * Clase ejecutable Comercio. Instancia objetos de la clase ArtefactosHogar (y las subclases) que ofrece el comercio.
+ * La colección es de tipo ArtefactoHogar: contiene cocinas, heladeras y lavarropas.
  * 
  * @author Lourdes G. Caceres
- * @version 1.0 - 20/10/2026
+ * @version 1.0 - 14/10/2026
  */
 public class Comercio {
 
@@ -43,9 +40,8 @@ public class Comercio {
     public static void listarArtefactos(ArrayList<ArtefactoHogar> p_lista){
         int numero = 1;
         for(ArtefactoHogar artefacto : p_lista){
-            System.out.println("[" + numero + "]");
             artefacto.imprimir();
-            System.out.println();
+            System.out.println("\n[" + numero + "]");
             numero++;
         }
     }
@@ -60,45 +56,13 @@ public class Comercio {
      */
     public static void consultarCredito(ArtefactoHogar p_artefacto, int p_cuotas, float p_interes){
         p_artefacto.imprimir();
-        System.out.println("Cuotas: " + p_cuotas + " - Interés: " + p_interes + "%");
-        // Locale.US: asegura el punto decimal independientemente de la configuración regional
-        System.out.println(String.format(Locale.US, "Valor Cuota: %.2f",
-                            p_artefacto.cuotaCredito(p_cuotas, p_interes)));
-        System.out.println(String.format(Locale.US, "Valor Cuota Con Adicionales: %.2f",
-                            p_artefacto.creditoConAdicional(p_cuotas, p_interes)));
-        System.out.println();
+        System.out.print("\nCuotas: " + p_cuotas + " - Interés: " + p_interes + "%");
+        System.out.printf("\nValor Cuota: %.2f", p_artefacto.cuotaCredito(p_cuotas, p_interes));
+        System.out.printf("\nValor Cuota Con Adicionales: %.2f", p_artefacto.creditoConAdicional(p_cuotas, p_interes));
     }
 
     /**
-     * Lee por teclado un número entero, reintentando hasta que el valor ingresado sea válido.
-     */
-    private static int leerEntero(Scanner p_teclado, String p_mensaje){
-        while(true){
-            System.out.print(p_mensaje);
-            try{
-                return Integer.parseInt(p_teclado.nextLine().trim());
-            }catch(NumberFormatException e){
-                System.out.println("Valor inválido. Ingrese un número entero.");
-            }
-        }
-    }
-
-    /**
-     * Lee por teclado un número real (acepta coma o punto decimal), reintentando hasta que sea válido.
-     */
-    private static float leerFloat(Scanner p_teclado, String p_mensaje){
-        while(true){
-            System.out.print(p_mensaje);
-            try{
-                return Float.parseFloat(p_teclado.nextLine().trim().replace(',', '.'));
-            }catch(NumberFormatException e){
-                System.out.println("Valor inválido. Ingrese un número.");
-            }
-        }
-    }
-
-    /**
-     * Instancia los artefactos del comercio, simula consultas de clientes y
+     * METODO EJECUTABLE. Instancia los artefactos del comercio, simula consultas de clientes y
      * muestra un menú para listar, consultar un crédito o quitar artefactos.
      */
     public static void main(String arg[]){
@@ -106,68 +70,49 @@ public class Comercio {
         ArrayList<ArtefactoHogar> artefactos = new ArrayList<>();
 
         ArtefactoHogar cocina = new Cocina("Volcan", 600.0f, 15, 4, 2000, "80*60*60cm");
-        ArtefactoHogar heladera = new Heladera("Gafa", 1200.0f, 8, 11, 2, true);
+        ArtefactoHogar heladera = new Heladera("Bambi", 1200.0f, 8, 11, 2, true);
         ArtefactoHogar lavarropas = new Lavarropas("Drean", 900.0f, 5, 6, 7.0f, false);
 
         agregarArtefacto(artefactos, cocina);
         agregarArtefacto(artefactos, heladera);
         agregarArtefacto(artefactos, lavarropas);
 
-        System.out.println("===== SIMULACIÓN DE CONSULTAS =====\n");
-        consultarCredito(cocina, 6, 2.53f);
-        consultarCredito(heladera, 6, 2.53f);
-        consultarCredito(lavarropas, 12, 3.1f);
-
-        int opcion;
+        int opcion = -1;
         do{
-            System.out.println("----COMERCIO----");
-            System.out.println("1) Listar artefactos.");
-            System.out.println("2) Consultar crédito.");
-            System.out.println("3) Quitar un artefacto.");
-            System.out.println("0) Salir.");
-            opcion = leerEntero(texto, "Opción: ");
-            System.out.println();
+            System.out.print("\n\n----COMERCIO----");
+            System.out.print("\n1) Listar artefactos.");
+            System.out.print("\n2) Consultar crédito.");
+            System.out.print("\n3) Quitar un artefacto.");
+            System.out.print("\n0) Salir.");
+            System.out.print("\nSeleccione una opción: ");
+            opcion = texto.nextInt();
 
             switch(opcion){
                 case 1:
                     listarArtefactos(artefactos);
                     break;
                 case 2:
-                    if(artefactos.isEmpty()){
-                        System.out.println("No hay artefactos cargados.\n");
-                        break;
-                    }
-                    listarArtefactos(artefactos);
-                    int posicion = leerEntero(texto, "Número de artefacto: ");
-                    if(posicion < 1 || posicion > artefactos.size()){
-                        System.out.println("El artefacto indicado no existe.\n");
-                        break;
-                    }
-                    int cuotas = leerEntero(texto, "Cantidad de cuotas: ");
-                    float interes = leerFloat(texto, "Interés (%): ");
-                    if(cuotas <= 0 || interes < 0){
-                        System.out.println("Las cuotas deben ser mayores que 0 y el interés no negativo.\n");
-                        break;
-                    }
-                    System.out.println();
-                    consultarCredito(artefactos.get(posicion - 1), cuotas, interes);
+                    System.out.println("===== CONSULTAS =====\n");
+                    consultarCredito(cocina, 3, 2.53f);
+                    consultarCredito(heladera, 3, 2.53f);
+                    consultarCredito(lavarropas, 6, 3.1f);
                     break;
                 case 3:
                     listarArtefactos(artefactos);
-                    int numero = leerEntero(teclado, "Número de artefacto a quitar: ");
-                    if(numero >= 1 && numero <= artefactos.size()){
-                        quitarArtefacto(artefactos, artefactos.get(numero - 1));
-                        System.out.println("Artefacto quitado.\n");
-                    }else{
-                        System.out.println("El artefacto indicado no existe.\n");
-                    }
+                    System.out.print("\nIndique el numero del electrodomestico a quitar: ");
+                    int numero = texto.nextInt();
+                    quitarArtefacto(artefactos, artefactos.get(numero - 1));
+                    System.out.println("Artefacto quitado.\n");
                     break;
                 case 0:
                     break;
                 default:
-                    System.out.println("Opción inválida.\n");
+                    System.out.print("\nOpción inválida.\n");
             }
-        }while(opcion != 0);
+        }while(opcion > 0 && opcion < 4);
+        
         System.out.println("***PROGRAMA FINALIZADO***");
+        texto.close();
     }
 }
+
