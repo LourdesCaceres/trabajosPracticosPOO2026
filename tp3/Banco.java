@@ -183,5 +183,7 @@ public class Banco
         
         }while (seleccion != 0);
         System.out.println("***PROGRAMA FINALIZADO***");
+
+        teclado.close();
     }
 }
