@@ -45,7 +45,7 @@ public abstract class CuentaBancaria {
         return this.nroCuenta;
     }
     public double getSaldo(){
-        return this.saldo;W
+        return this.saldo;
     }
     public Persona getTitular(){
         return this.titular;
@@ -62,6 +62,20 @@ public abstract class CuentaBancaria {
         this.titular = p_titular;
     }
     /**
+     * Método abstracto 
+     * 
+     * @param p_importe
+     */
+    protected abstract boolean puedeExtraer(double p_importe);
+
+    /**
+     * Método abstracto
+     * 
+     * @param p_importe 
+     */
+    public abstract String xQueNoPuedeExtraer(double p_importe);
+    
+    /**
      * Incrementa el saldo actual de la cuenta tanto como se específica
      * 
      * @param  p_importe el monto que deposita el titular
@@ -73,36 +87,26 @@ public abstract class CuentaBancaria {
     }
     
     /**
-     * Decrementa el saldo actual de la cuenta tanto como se específica
+     * 
      * 
      * @param  p_importe el monto que extrae el titular
-     * @return  el saldo actualizado
+     * @return  true o false
      */    
-    //cambiar a BOOLEAN 
-    //Redifinir teniendo en cuenta el ejercicio 7 del TP3
-    public double extraer(double p_importe){
-        this.setSaldo(this.getSaldo() - p_importe);
-        return this.getSaldo();
+    public boolean extraer(double p_importe){
+        if(this.puedeExtraer(p_importe)){
+            this.setSaldo(getSaldo() - p_importe );
+            return true;
+        }
+        return false;
     }
     
     /**
      * Muestra por pantalla un informe con la informacion personal y bancaria del titular
      */
     public void mostrar(){
-        System.out.print("\n-CUENTA BANCARIA - ");
         System.out.print("\nTitular: "+this.getTitular().nomYApe()+
                                     " ("+this.getTitular().edad()+" años)");
         System.out.print("\nSaldo: "+this.getSaldo());
-    }
-    
-    /**
-     * Concatena en una sola linea la informacion importante del titular
-     * 
-     * @return  cadena formada por el nro de cuente, el titular y el saldo actual
-     */
-    public String toString(){
-        
-        return "\n"+this.getNroCuenta()+"\t"+this.getTitular().nomYApe()+"\t"+this.getSaldo(); 
     }
 
 }

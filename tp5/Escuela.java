@@ -92,5 +92,6 @@ public class Escuela
         for(i=0; i<5; i++){
             alumnos[i].mostrar();
         }
+        teclado.close();
     }
 }
