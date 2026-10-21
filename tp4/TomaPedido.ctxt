@@ -1,0 +1,8 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=TomaPedido
+comment0.text=\r\n Clase ejecutable para la clase Pedido, mediante valores ingresados por Scanner\r\n se instancian objetos necesarios y se dispone de un ingreso ilimitado de productos.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 14/09/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Se instancian objetos de clase Calendar, Cliente, Laboratorio y Pedido para poder formar\r\n la colecci\u00F3n, todo mediante ingreso por teclado excepto por la fecha que toma la fecha en la\r\n que se ejecuta el programa.\r\n Instancia un objeto de clase Producto que es con el que se iniciar\u00E1 la lista usando el segundo\r\n constructor de la clase Pedido. Una vez creada la lista, se le preguntar\u00E1 al usuario si desea seguir \r\n ingresando productos a la lista, esto lo har\u00E1 indefinidamente mediante una estructura while y el\r\n m\u00E9todo agregarProducto().\r\n Finalizado el ingreso de productos, imprime la lista en pantalla, luego elimina el primer\r\n producto ingresado y vuelve a mostrar en pantalla la lista actualizada. \r\n
+numComments=2

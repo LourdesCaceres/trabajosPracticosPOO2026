@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=AplicacionBanco2
+comment0.text=\r\n Clase ejecutable para validar las funcionalidades de la clase Banco\r\n probando sus tres constructores sobrecargados (Ejercicio 4).\r\n \r\n @author Lourdes G. Caceres\r\n @version 3.0 20/09/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

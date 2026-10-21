@@ -5,12 +5,13 @@
  * 
  * @author Lourdes G. Caceres
  * @version 1.0 - 28/09/2026
+ * @version 2.0 - 16/10/2026
  */
-public class Elipse {
+public class Elipse extends FiguraGeometrica{
     // atributos de instancia
     private double sEjeMayor;
     private double sEjeMenor;
-    private Punto centro;
+    //private Punto centro; pertenece a la superclase
 
     /**
      * Primer constructor de la clase Elipse
@@ -20,9 +21,10 @@ public class Elipse {
      * @param p_ejeMenor valor del semieje menor 
      */
     public Elipse(double p_ejeMayor, double p_ejeMenor){
+        super(new Punto(0,0));
         this.setEjeMayor(p_ejeMayor);
         this.setEjeMenor(p_ejeMenor);
-        this.setCentro(new Punto(0,0));
+        //this.setCentro(new Punto(0,0));
     }    
     /**
      * Segundo constructor de la clase Elipse
@@ -33,9 +35,10 @@ public class Elipse {
      * @param p_punto  Instancia de Punto que representa el centro de la figura
      */
     public Elipse(double p_ejeMayor, double p_ejeMenor, Punto p_centro){
+        super(p_centro);
         this.setEjeMayor(p_ejeMayor);
         this.setEjeMenor(p_ejeMenor);
-        this.setCentro(p_centro);
+        //this.setCentro(p_centro);
     }
 
     //SETTERS
@@ -45,9 +48,9 @@ public class Elipse {
     private void setEjeMenor(double p_ejeMenor){
         this.sEjeMenor = p_ejeMenor;
     }
-    private void setCentro(Punto p_centro){
+    /*private void setCentro(Punto p_centro){
         this.centro = p_centro;
-    }
+    }*/
     
     //GETTERS
     public double getEjeMayor(){
@@ -56,24 +59,26 @@ public class Elipse {
     public double getEjeMenor(){
         return this.sEjeMenor;
     }
-    public Punto getCentro(){
+    /*public Punto getCentro(){
         return this.centro;
-    }
+    }*/
     
     /**
-     * Identifica la figura geométrica
+     * Implementación del método. Identifica la figura geométrica
      * 
      * @return Cadena de caracteres con el nombre de la figura 
      */
+    @Override
     public String nombreFigura(){
         return "****** Elipse ******";
     }
 
     /**
-     * Calcula la superficie (area) de la figura.
+     * Implementación del método. Calcula la superficie (area) de la figura.
      * 
      * @return valor de la superficie (de tipo double)
      */
+    @Override
     public double superficie(){
         return Math.PI * this.getEjeMayor() * this.getEjeMenor();
     }
@@ -82,8 +87,10 @@ public class Elipse {
      * nombre, coordenadas del centro, semieje mayor y menor, y superficie
      */
     public void caracteristicas(){
+        super.mostrarSuperficie();
         System.out.println("\n"+nombreFigura());
-        System.out.println("Centro: " + this.getCentro().coordenadas() + " - " + "Semieje Mayor: " + this.getEjeMayor()+ " - Semieje Menor: " + this.getEjeMenor());
+        System.out.println("Centro: " + super.getOrigen().coordenadas() + " - " + 
+          "Semieje Mayor: " + this.getEjeMayor()+ " - Semieje Menor: " + this.getEjeMenor());
         System.out.println("Superficie: " + this.superficie());
     }
     /**
@@ -93,7 +100,7 @@ public class Elipse {
      * @param p_dy Valor de desplazamiento del eje Y
      */
     public void desplazar(double p_dx, double p_dy){
-        this.getCentro().desplazar(p_dx, p_dy);
+        super.getOrigen().desplazar(p_dx, p_dy);
     } 
     /**
      * Calcula la distancia entre dos elipses, a partir de los puntos de centro de ambas.
@@ -102,8 +109,8 @@ public class Elipse {
      * @return (double) devuelve la distancia entre ambas elipses.
      */
     public double distanciaA(Elipse p_otraElipse){
-        Punto otroCentro = p_otraElipse.getCentro();
-        return this.getCentro().distanciaA(otroCentro);
+        Punto otroCentro = p_otraElipse.getOrigen();
+        return this.getOrigen().distanciaA(otroCentro);
     }
     
     /**

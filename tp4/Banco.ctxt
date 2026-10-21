@@ -1,0 +1,35 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=Banco
+comment0.text=\r\n Abstraccion de una entidad bancaria encargada de gestionar la n\u00F3mina de sus empleados\r\n e operar sobre colecciones (las nominas) mediante el metodos propios de JCF (Java Collections Framework).\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 07/09/2026\r\n
+comment1.params=p_nombre p_localidad p_nroSucursal p_empleado
+comment1.target=Banco(java.lang.String, Localidad, int, Empleado)
+comment1.text=\r\n 1er constructor para modelar la restricci\u00F3n de cardinalidad (1..*)\r\n \r\n @param p_nombre Nombre del banco.\r\n @param p_localidad Objeto de la clase Localidad\r\n @param p_nroSucursal N\u00FAmero identificador de la sucursal.\r\n @param p_empleado Instancia inicial de Empleado obligatoria.\r\n
+comment10.target=java.util.ArrayList getEmpleados()
+comment11.params=p_empleado
+comment11.target=boolean agregarEmpleado(Empleado)
+comment11.text=\r\n Agrega un nuevo empleado a la n\u00F3mina del banco.\r\n \r\n @param p_empleado Instancia Empleado a a\u00F1adir.\r\n @return true si se agrego correctamente a la n\u00F3mina.\r\n
+comment12.params=p_empleado
+comment12.target=boolean quitarEmpleado(Empleado)
+comment12.text=\r\n Elimina un empleado especificado de la colecci\u00F3n del banco.\r\n \r\n @param p_empleado Empleado a remover.\r\n @return true si la colecci\u00F3n conten\u00EDa el elemento especificado y fue removido.\r\n
+comment13.target=void listarSueldos()
+comment13.text=\r\n Recorre iterativamente la colecci\u00F3n de empleados e imprime en consola\r\n el CUIL, nombre completo y el sueldo neto reportado por cada uno.\r\n
+comment14.target=double sueldosAPagar()
+comment14.text=\r\n Acumula e informa el monto total de sueldos a pagar para la n\u00F3mina actual.\r\n \r\n @return Sumatoria total de sueldos netos (double).\r\n
+comment15.target=void mostrar()
+comment15.text=\r\n Emite el reporte de liquidaci\u00F3n del banco por consola. Incluye el encabezado\r\n institucional, el listado detallado de cada empleado de la sucursal.\r\n
+comment2.params=p_nombre p_localidad p_nroSucursal p_empleados
+comment2.target=Banco(java.lang.String, Localidad, int, java.util.ArrayList)
+comment2.text=\r\n 2do Constructor que inicializa el banco asignando una coleccion existente.\r\n \r\n @param p_nombre Nombre del banco.\r\n @param p_localidad Objeto de la clase Localidad asociado al banco.\r\n @param p_nroSucursal N\u00FAmero identificador de la sucursal.\r\n @param p_empleados Colecci\u00F3n de tipo ArrayList de objetos Empleado.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_nroSucursal
+comment4.target=void setNroSucursal(int)
+comment5.params=p_localidad
+comment5.target=void setLocalidad(Localidad)
+comment6.params=p_empleados
+comment6.target=void setEmpleados(java.util.ArrayList)
+comment7.target=java.lang.String getNombre()
+comment8.target=int getNroSucursal()
+comment9.target=Localidad getLocalidad()
+numComments=16

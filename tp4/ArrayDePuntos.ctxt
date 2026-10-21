@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=ArrayDePuntos
+comment0.text=\r\n Clase ejecutable que opera con la clase Punto para probar arrays est\u00E1ticos.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 07/09/2026\r\n
+comment1.target=void main()
+comment1.text=\r\n El programa pide al usuario que ingrese los ejes x e y para 6 puntos,\r\n crea instancias de clase Punto con los valores ingresados y los guarda\r\n en un array est\u00E1tico. Esto lo realiza mediante un for donde para cada pasada\r\n las variables x e y ir\u00E1n cambiando y guardando cada punto.\r\n \r\n Luego se vuelve a usar la estructura for para recorrer el vector dos veces,\r\n la primera para mostrar las coordenadas de cada punto y la segunda para\r\n mostrar la distancia entre dos puntos consecutivos. Ambos m\u00E9todos imprimen por pantalla.\r\n \r\n
+numComments=2

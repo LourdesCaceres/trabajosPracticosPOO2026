@@ -1,0 +1,8 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=Carrera
+comment0.text=\r\n Clase ejecutable para la clase Curso, busca probar todos los m\u00E9todos de la clase\r\n y adem\u00E1s usar los dos constructores. Se instancian dos cursos y m\u00FAltiples alumnos. \r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version 1.0 - 20/09/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Al ejecutar el programa se pedir\u00E1 el nombre para un nuevo curso, se instanciar\u00E1\r\n el objeto de clase Curso y luego se pedir\u00E1 que se ingrese al menos un alumno para inscribirlo.\r\n Mediante un do-while, el usuario ingresa cu\u00E1ntos alumnos desea y todos son inscriptos.\r\n Se muestra la lista de alumnos indicando la cantidad de inscriptos. Se prueba dar de baja un alumno \r\n y se infroma que fue eliminado, luego se vuelve a mostrar la lista actualizada.\r\n Se prueba la busqueda de alumno y se muestra los datos del alumno que se busca. Se muestra el promedio\r\n de un alumno que el usuario desee.\r\n Finalmente se instancia un nuevo curso para probar los m\u00E9todos restantes, como la otra forma de\r\n estaInscripto() y el segundo constructor de la clase.\r\n
+numComments=2

@@ -1,0 +1,36 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=Comercio
+comment0.text=\r\n La clase Comercio representa una entidad comercial que gestiona una n\u00F3mina de empleados utilizando\r\n una estructura de datos basada en tablas de dispersi\u00F3n (HashMap).\r\n Mapea cada objeto Empleado mediante su n\u00FAmero de CUIL \u00FAnico como clave.\r\n\r\n @author Caceres, Lourdes G. \r\n @version 1.0 14/09/2026 \r\n
+comment1.params=p_nombre
+comment1.target=Comercio(java.lang.String)
+comment1.text=\r\n Primer constructor de la clase Comercio.\r\n Inicializa la entidad con su nombre y una colecci\u00F3n de empleados vac\u00EDa.\r\n \r\n @param p_nombre El nombre comercial de la empresa.\r\n
+comment10.params=p_cuil
+comment10.target=boolean esEmpleado(long)
+comment10.text=\r\n Consulta por medio del CUIL si un empleado forma parte de la nomina de la empresa.\r\n \r\n @param p_cuil N\u00FAmero de CUIL a verificar en la colecci\u00F3n.\r\n @return true si la clave existe en el HashMap; false en caso contrario.\r\n
+comment11.params=p_cuil
+comment11.target=Empleado buscarEmpleado(long)
+comment11.text=\r\n Busca en la coleccion si un empleado es parte de la empresa por medio de su cuil\r\n \r\n @param p_cuil nro de cuil del empleado a consultar.\r\n @return La instancia de Empleado asociada al CUIL, o null si no est\u00E1 registrado.\r\n
+comment12.params=p_cuil
+comment12.target=void sueldoNeto(long)
+comment12.text=\r\n Visualizar por pantalla el sueldo neto del empleado cuyo CUIL coincida \r\n con el par\u00E1metro introducido\r\n \r\n @param p_cuil N\u00FAmero de CUIL a verificar en la colecci\u00F3n.\r\n
+comment13.target=void nomina()
+comment13.text=\r\n Muestra por pantalla la n\u00F3mina completa de la empresa, invocando el c\u00E1lculo\r\n e impresi\u00F3n de sueldo neto para cada uno de los empleados registrados.\r\n
+comment2.params=p_nombre p_empleados
+comment2.target=Comercio(java.lang.String, java.util.HashMap)
+comment2.text=\r\n Segundo constructor de la clase Comercio.\r\n Inicializa la entidad con su nombre y asigna una colecci\u00F3n de empleados preexistente.\r\n \r\n @param p_nombre El nombre comercial de la empresa.\r\n @param p_empleados Colecci\u00F3n HashMap de objetos Empleado claveados por su CUIL.\r\n
+comment3.params=p_nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.params=p_empleados
+comment4.target=void setEmpleados(java.util.HashMap)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.util.HashMap getEmpleados()
+comment7.params=p_empleado
+comment7.target=void altaEmpleado(Empleado)
+comment7.text=\r\n Agrega un objeto Empleado a la colecci\u00F3n utilizando su n\u00FAmero de CUIL como clave.\r\n \r\n @param p_empleado Objeto Empleado a dar de alta.\r\n
+comment8.params=p_cuil
+comment8.target=Empleado bajaEmpleado(long)
+comment8.text=\r\n Elimina un empleado de la colecci\u00F3n seg\u00FAn su n\u00FAmero de CUIL.\r\n \r\n @param p_cuil N\u00FAmero de CUIL del empleado a dar de baja.\r\n @return El objeto Empleado eliminado de la colecci\u00F3n, o null si la clave no exist\u00EDa.\r\n
+comment9.target=int cantidadDeEmpleados()
+comment9.text=\r\n Retorna la cantidad total de empleados registrados en la n\u00F3mina del comercio.\r\n \r\n @return Cantidad de pares clave-valor almacenados en la n\u00F3mina.\r\n
+numComments=14

@@ -1,0 +1,32 @@
+#BlueJ class context
+#Tue Oct 20 19:23:30 ART 2026
+comment0.target=Pedido
+comment0.text=\r\n La clase Pedido simula un pedido de productos de un laboratorio para\r\n una farmacia o droguer\u00EDa. Utiliza un arreglo din\u00E1mico de tipo ArrayList,\r\n para este ejercicio decidimos hacerlo no gen\u00E9rico.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 11/09/2026\r\n
+comment1.params=p_fecha p_cliente p_productos
+comment1.target=Pedido(java.util.Calendar, Cliente, java.util.ArrayList)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Pedido\r\n \r\n @param p_fecha\: Calendar - fecha en la que se realiza el pedido.\r\n @param p_cliente\: Cliente - persona que realiza el pedido.\r\n @param p_productos\: ArrayList<Producto> - lista de productos que se piden.\r\n
+comment10.params=p_producto
+comment10.target=boolean quitarProducto(Producto)
+comment10.text=\r\n Quita un producto a la colecci\u00F3n.\r\n \r\n @param p_producto\: Producto - el producto que ser\u00E1 agregado\r\n @return true o false si el producto pudo ser quitado o no. \r\n
+comment11.target=double totalAlContado()
+comment11.text=\r\n Crea una variable temporal que ser\u00E1 un acumulador de los precios al contado\r\n de cada producto de la colecci\u00F3n. Para recorrer la colecci\u00F3n y sumar los valores\r\n se utiliza una estructura for.\r\n \r\n @return el acumulador de todos los precios al contado.\r\n
+comment12.target=double totalFinanciado()
+comment12.text=\r\n Crea una variable temporal que ser\u00E1 un acumulador de los precios de lista\r\n de cada producto de la colecci\u00F3n. Para recorrer la colecci\u00F3n y sumar los valores\r\n se utiliza una estructura for.\r\n \r\n @return el acumulador de todos los precios financiados.\r\n
+comment13.target=void mostrarPedido()
+comment13.text=\r\n Muestra un detalle del pedido, mostrando la fecha en la que se realiz\u00F3 y una tabla\r\n con el nombre del producto, su precio de lista y precio al contado. El formato es as\u00ED\:\r\n "Jab\u00F3n Liquido Ala"    $4999.99     $4500.0\r\n Utiliza un for para recorrer la colecci\u00F3n, instanciando un objeto colaborador de clase Producto. \r\n
+comment2.params=p_fecha p_cliente p_producto
+comment2.target=Pedido(java.util.Calendar, Cliente, Producto)
+comment2.text=\r\nSEGUNDO CONSTRUCTOR DE LA CLASE Pedido\r\n\r\n @param p_fecha\: Calendar - fecha en la que se realiza el pedido.\r\n @param p_cliente\: Cliente - persona que realiza el pedido.\r\n @param p_producto\: Producto - unidad de producto que se pide.\r\n
+comment3.target=java.util.Calendar getFecha()
+comment4.target=Cliente getCliente()
+comment5.target=java.util.ArrayList getProductos()
+comment6.params=p_fecha
+comment6.target=void setFecha(java.util.Calendar)
+comment7.params=p_cliente
+comment7.target=void setCliente(Cliente)
+comment8.params=p_productos
+comment8.target=void setProductos(java.util.ArrayList)
+comment9.params=p_producto
+comment9.target=boolean agregarProducto(Producto)
+comment9.text=\r\n Agrega un producto a la colecci\u00F3n.\r\n \r\n @param p_producto\: Producto - el producto que ser\u00E1 agregado\r\n @return true o false si el producto pudo ser agregado o no. \r\n
+numComments=14
