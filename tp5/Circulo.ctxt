@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=Circulo
 comment0.text=\r\n Subclase Circulo, representa una especializaci\u00F3n de Elipse, donde los semiejes mayor y menor\r\n poseen el mismo valor...\r\n Hereda la estructura y comportamieno de Elipse, redefiniendo el m\u00E9todo nombreFigura.\r\n \r\n @author Lourdes G. Caceres \r\n @version 1.0 28/09/2026\r\n
 comment1.params=p_radio p_centro

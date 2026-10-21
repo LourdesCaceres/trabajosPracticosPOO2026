@@ -40,6 +40,7 @@ public class Cuadrado extends Rectangulo
      * 
      * @return String con el nombre de la figura.
      */
+    @Override
     public String nombreFigura(){
         return "*****Cuadrado*****";
     }
@@ -48,6 +49,7 @@ public class Cuadrado extends Rectangulo
      * Imprime en pantalla las características del cuadrado, indicando el nombre de la figura,
      * las coordenadas de su punto origen, el valor de sus lados, su superficie y el perimetro.
      */
+    @Override
     public void caracteristicas(){
         System.out.println(this.nombreFigura());
         System.out.println("Origen: " + super.getOrigen().coordenadas() + " - Lado: " + this.getLado());

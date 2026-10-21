@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Sun Oct 18 21:43:12 ART 2026
 comment0.target=Escuela
 comment0.text=\r\n La clase Escuela sirve de ejecutable para la relaci\u00F3n de herencia\r\n entre la superclase Persona y la subclase Alumno.\r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version 1.0 - 02/10/2026\r\n
 comment1.params=args

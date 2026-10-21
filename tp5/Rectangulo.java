@@ -1,3 +1,4 @@
+import java.util.Formatter;
 /**
  * Representa la abstraccion de una figura geométrica (rectángulo) en el plano,
  * definida por un punto de origen (de la clase Punto), un ancho y un alto.
@@ -78,22 +79,47 @@ public class Rectangulo extends FiguraGeometrica{
         System.out.printf("\nOrigen: %s - Alto: %.2f - Ancho: %.2f", this.getOrigen().coordenadas(), this.getAlto(), this.getAncho());
         System.out.printf("\nSuperficie: %.2f - Perimetro: %.2f\n", this.superficie(), this.perimetro());
     }
-
+    
+    /**
+     * Calcula el perímetro del rectangulo con la fórmula 2*ancho*alto.
+     * 
+     * @return perimetro calculado
+     */
     public double perimetro(){
         //perimetro = 2*(l1*l2)
         return 2*(this.getAncho() + this.getAlto());
     }
     
+    /**
+     * Calcula la superficie del rectángulo mediante el producto
+     * entre el ancho y el alto.
+     * 
+     * @return superficie calculada.
+     */
     public double superficie(){
         //area = base * altura
         return this.getAncho() * this.getAlto();
     }
 
+    /**
+     * Comprueba la distancia entre el punto origen de dos rectángulos mediante
+     * un método interno de la clase Punto.
+     * 
+     * @param otroRectangulo: Rectangulo - rectángulo con el que compara el rectángulo trabajado
+     * @return distancia calculada.
+     */
     public double distanciaA(Rectangulo otroRectangulo){
         double distancia = this.getOrigen().distanciaA(otroRectangulo.getOrigen());
         return distancia;
     }
 
+    /**
+     * Verifica entre el rectángulo de la clase y otro rectángulo cuál es el
+     * de mayor tamaño según sus superficies. Si son iguales imprime un mensaje.
+     * 
+     * @param otroRectangulo: Rectangulo - rectangulo a comparar.
+     * @return el rectangulo más grande.
+     */
     public Rectangulo elMayor(Rectangulo otroRectangulo){
 
         if(this.superficie() == otroRectangulo.superficie()){
@@ -105,6 +131,13 @@ public class Rectangulo extends FiguraGeometrica{
         return otroRectangulo;
     }
     
+    /**
+     * Retorna una cadena indicando de qué figura se trata. 
+     * Sobreescribe un método abstracto.
+     * 
+     * @return cadena indicando que es un rectángulo.
+     */
+    @Override
     public String nombreFigura(){
         return "*****Rectángulo*****";
     }

@@ -1,0 +1,8 @@
+#BlueJ class context
+#Tue Oct 20 22:38:20 ART 2026
+comment0.target=AdministracionGerencia
+comment0.text=\r\n Clase ejecutable para Gerencia y todas las clases conjuntas a ella.\r\n Simula la administraci\u00F3n de una gerencia que alquila multiples caba\u00F1as y habitaciones\r\n de hotel.\r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Se instancia una primer gerencia para probar el constructor m\u00EDnimo, utilizando los ejemplos\r\n requeridos por la consigna, se muestran los resultados. Finalmente se instancia una segunda\r\n gerencia esta vez con datos ingresados por teclado (excepto los servicios) para probar el segundo\r\n constructor de Gerencia as\u00ED como m\u00E1s m\u00E9todos de Alojamiento y Gerencia.\r\n
+numComments=2

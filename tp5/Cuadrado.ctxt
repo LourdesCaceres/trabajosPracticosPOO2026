@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=Cuadrado
 comment0.text=\r\n La clase Cuadrado es una extensi\u00F3n (especializaci\u00F3n) para la clase Rectangulo, los lados de la figura\r\n son iguales y se redefinen funciones como nombreFigura() y caracteristicas().\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 05/10/2026\r\n
 comment1.params=p_origen p_ancho p_alto p_lado

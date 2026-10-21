@@ -1,10 +1,10 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Tue Oct 20 16:22:29 ART 2026
 comment0.target=Servicio
-comment0.text=\r\n Write a description of class Servicio here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 16/10/2026\r\n
+comment0.text=\r\n La clase representa la abstracci\u00F3n de un servicio particular para un alquiler\r\n como puede ser alquiler de auto, lavander\u00EDa, etc. La clase no presenta m\u00E9todos\r\n propios, solo setters y getters.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 16/10/2026\r\n
 comment1.params=p_descripcion p_precio
 comment1.target=Servicio(java.lang.String, double)
-comment1.text=\r\n Constructor for objects of class Servicio\r\n
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Servicio\r\n \r\n @param p_descripcion\: String - descripcion o concepto del servicio.\r\n @param p_precio\: double - cu\u00E1nto cuesta el servicio.\r\n
 comment2.params=p_descripcion
 comment2.target=void setDescripcion(java.lang.String)
 comment3.params=p_precio

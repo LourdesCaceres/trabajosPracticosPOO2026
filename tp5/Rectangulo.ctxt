@@ -1,16 +1,20 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=Rectangulo
 comment0.text=\r\n Representa la abstraccion de una figura geom\u00E9trica (rect\u00E1ngulo) en el plano,\r\n definida por un punto de origen (de la clase Punto), un ancho y un alto.\r\n La actualizaci\u00F3n 2.0 agrega el m\u00E9todo nombreFigura().\r\n La versi\u00F3n 3.0 vuelve la clase una subclase de la clase abstracta FiguraGeometrica.\r\n \r\n @author Lourdes Gabriela Caceres\r\n @version 1.0 27/08/2026\r\n @version 2.0 05/10/2026\r\n @version 3.0 16/10/2026\r\n
 comment1.params=p_ancho p_alto
 comment1.target=Rectangulo(double, double)
 comment1.text=\r\n 1er CONSTRUCTOR de la clase Rectangulo\: para el caso en que el\r\n origen se encuentra en el punto (0,0), y solo recibe las dimensiones (ancho-alto)\r\n \r\n @param p_ancho\r\n @param p_alto\r\n
 comment10.target=double superficie()
+comment10.text=\r\n Calcula la superficie del rect\u00E1ngulo mediante el producto\r\n entre el ancho y el alto.\r\n \r\n @return superficie calculada.\r\n
 comment11.params=otroRectangulo
 comment11.target=double distanciaA(Rectangulo)
+comment11.text=\r\n Comprueba la distancia entre el punto origen de dos rect\u00E1ngulos mediante\r\n un m\u00E9todo interno de la clase Punto.\r\n \r\n @param otroRectangulo\: Rectangulo - rect\u00E1ngulo con el que compara el rect\u00E1ngulo trabajado\r\n @return distancia calculada.\r\n
 comment12.params=otroRectangulo
 comment12.target=Rectangulo elMayor(Rectangulo)
+comment12.text=\r\n Verifica entre el rect\u00E1ngulo de la clase y otro rect\u00E1ngulo cu\u00E1l es el\r\n de mayor tama\u00F1o seg\u00FAn sus superficies. Si son iguales imprime un mensaje.\r\n \r\n @param otroRectangulo\: Rectangulo - rectangulo a comparar.\r\n @return el rectangulo m\u00E1s grande.\r\n
 comment13.target=java.lang.String nombreFigura()
+comment13.text=\r\n Retorna una cadena indicando de qu\u00E9 figura se trata. \r\n Sobreescribe un m\u00E9todo abstracto.\r\n \r\n @return cadena indicando que es un rect\u00E1ngulo.\r\n
 comment2.params=p_origen p_ancho p_alto
 comment2.target=Rectangulo(Punto, double, double)
 comment2.text=\r\n 2do CONSTRUCTOR de la clase Rectangulo\: para el caso ...\r\n \r\n @param p_origen\r\n @param p_ancho\r\n @param p_alto\r\n
@@ -26,4 +30,5 @@ comment7.text=\r\n Desplaza el punto origen del rectangulo mediante un m\u00E9to
 comment8.target=void caracteristicas()
 comment8.text=\r\n Imprime en pantalla las caracteristicas del rectangulo\:\r\n origen, alto y ancho. Asi como su superficie y el per\u00EDmetro\r\n
 comment9.target=double perimetro()
+comment9.text=\r\n Calcula el per\u00EDmetro del rectangulo con la f\u00F3rmula 2*ancho*alto.\r\n \r\n @return perimetro calculado\r\n
 numComments=14

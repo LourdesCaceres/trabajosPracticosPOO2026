@@ -1,7 +1,7 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=Elipse
-comment0.text=\r\n (SuperClase) Representa la figura Elipse. proporciona los m\u00E9todos necesarios para\:\r\n calcular superficie, distancia entre figuras y dezplazamiento en el plano.\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 - 28/09/2026\r\n @version 2.0 - 16/10/2026\r\n
+comment0.text=\r\n (SuperClase) Representa la figura Elipse. proporciona los m\u00E9todos necesarios para\:\r\n calcular superficie, distancia entre figuras y dezplazamiento en el plano.\r\n Actualizaci\u00F3n 2.0 lo modifica para ser una subclase de la clase abstracta FiguraGeometrica.\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 - 28/09/2026\r\n @version 2.0 - 16/10/2026\r\n
 comment1.params=p_ejeMayor p_ejeMenor
 comment1.target=Elipse(double, double)
 comment1.text=\r\n Primer constructor de la clase Elipse\r\n Inicializa con su centro en el punto (0,0) con su semieje mayor y menor\r\n \r\n @param p_ejeMayor valor del semieje mayor\r\n @param p_ejeMenor valor del semieje menor \r\n
@@ -14,7 +14,7 @@ comment11.text=\r\n Calcula la distancia entre dos elipses, a partir de los punt
 comment12.params=p_otraElipse
 comment12.target=Elipse elMayor(Elipse)
 comment12.text=\r\n Compara la superficie entre dos elipses, retornando la mayor.\r\n \r\n @param p_otraElipse \r\n @return (objeto Elipse) la elipse con mayor superficie.\r\n
-comment2.params=p_ejeMayor p_ejeMenor p_centro
+comment2.params=p_ejeMayor p_ejeMenor p_origen
 comment2.target=Elipse(double, double, Punto)
 comment2.text=\r\n Segundo constructor de la clase Elipse\r\n Inicializa con su centro en un punto espec\u00EDfico, con su semieje mayor y menor\r\n \r\n @param p_ejeMayor valor del semieje mayor\r\n @param p_ejeMenor valor del semieje menor\r\n @param p_punto  Instancia de Punto que representa el centro de la figura\r\n
 comment3.params=p_ejeMayor
@@ -22,12 +22,11 @@ comment3.target=void setEjeMayor(double)
 comment4.params=p_ejeMenor
 comment4.target=void setEjeMenor(double)
 comment5.target=double getEjeMayor()
-comment5.text=private void setCentro(Punto p_centro){\r\n        this.centro \= p_centro;\r\n}
 comment6.target=double getEjeMenor()
 comment7.target=java.lang.String nombreFigura()
-comment7.text=\r\n Implementaci\u00F3n del m\u00E9todo. Identifica la figura geom\u00E9trica\r\n \r\n @return Cadena de caracteres con el nombre de la figura \r\n
+comment7.text=\r\n Identifica la figura geom\u00E9trica\r\n \r\n @return Cadena de caracteres con el nombre de la figura \r\n
 comment8.target=double superficie()
-comment8.text=\r\n Implementaci\u00F3n del m\u00E9todo. Calcula la superficie (area) de la figura.\r\n \r\n @return valor de la superficie (de tipo double)\r\n
+comment8.text=\r\n Calcula la superficie (area) de la figura.\r\n \r\n @return valor de la superficie (de tipo double)\r\n
 comment9.target=void caracteristicas()
 comment9.text=\r\n Muestra por pantalla el detalle de las caracter\u00EDsticas principales de la figura\:\r\n nombre, coordenadas del centro, semieje mayor y menor, y superficie\r\n
 numComments=13

@@ -1,14 +1,17 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=FiguraGeometrica
-comment0.text=\r\n Write a description of class FiguraGeometrica here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
+comment0.text=\r\n Clase abstracta que representa una figura geom\u00E9trica cualquiera, con m\u00E9todos b\u00E1sicos\r\n que sus clases hijas complementar\u00E1n.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
 comment1.params=p_origen
 comment1.target=FiguraGeometrica(Punto)
-comment1.text=\r\n Constructor for objects of class FiguraGeometrica\r\n
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE FiguraGeometrica\r\n \r\n @param p_origen\: Punto - punto origen de toda figura.\r\n
 comment2.params=p_origen
 comment2.target=void setOrigen(Punto)
 comment3.target=Punto getOrigen()
 comment4.target=java.lang.String nombreFigura()
+comment4.text=\r\n M\u00E9todo abstracto donde cada clase hija devolver\u00E1 el nombre seg\u00FAn la \r\n figura de la cual se trata.\r\n
 comment5.target=double superficie()
+comment5.text=\r\n M\u00E9todo abstracto donde cada figura espec\u00EDfica calcula la superficie seg\u00FAn\r\n su f\u00F3rmula determinada.\r\n
 comment6.target=void mostrarSuperficie()
+comment6.text=\r\n Imprime en pantalla el nombre de la figura espec\u00EDfica y su superficie.\r\n
 numComments=7

@@ -1,6 +1,8 @@
 
 /**
- * Write a description of class Servicio here.
+ * La clase representa la abstracción de un servicio particular para un alquiler
+ * como puede ser alquiler de auto, lavandería, etc. La clase no presenta métodos
+ * propios, solo setters y getters.
  * 
  * @author Chavez, Tobías Acdel
  * @version 1.0 - 16/10/2026
@@ -12,7 +14,10 @@ public class Servicio
     private double precio;
 
     /**
-     * Constructor for objects of class Servicio
+     * CONSTRUCTOR DE LA CLASE Servicio
+     * 
+     * @param p_descripcion: String - descripcion o concepto del servicio.
+     * @param p_precio: double - cuánto cuesta el servicio.
      */
     public Servicio(String p_descripcion, double p_precio){
         this.setDescripcion(p_descripcion);

@@ -19,6 +19,7 @@ public class Circulo extends Elipse{
     public Circulo(double p_radio, Punto p_centro){
         super(p_radio, p_radio, p_centro);
     }
+    
     /**
      * Segundo constructor de la clase Circulo.
      * Inicializa el circulo en el origen (Punto 0.0) y un radio dado.
@@ -28,6 +29,7 @@ public class Circulo extends Elipse{
     public Circulo(double p_radio){
         super(p_radio, p_radio);
     }
+    
     /**
      * Redefinicion del metodo heredado de Elipse.
      * Identifica la figura geométrica

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Sun Oct 18 22:21:55 ART 2026
 comment0.target=Facultad
 comment0.text=\r\n Abstracci\u00F3n de una facultad con una lista de profesores, cada uno con sus cargos asignados.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 07/10/26\r\n
 comment1.params=p_nombre p_profesor

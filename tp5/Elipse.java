@@ -2,6 +2,7 @@
 /**
  * (SuperClase) Representa la figura Elipse. proporciona los métodos necesarios para:
  * calcular superficie, distancia entre figuras y dezplazamiento en el plano.
+ * Actualización 2.0 lo modifica para ser una subclase de la clase abstracta FiguraGeometrica.
  * 
  * @author Lourdes G. Caceres
  * @version 1.0 - 28/09/2026
@@ -11,7 +12,6 @@ public class Elipse extends FiguraGeometrica{
     // atributos de instancia
     private double sEjeMayor;
     private double sEjeMenor;
-    //private Punto centro; pertenece a la superclase
 
     /**
      * Primer constructor de la clase Elipse
@@ -24,8 +24,8 @@ public class Elipse extends FiguraGeometrica{
         super(new Punto(0,0));
         this.setEjeMayor(p_ejeMayor);
         this.setEjeMenor(p_ejeMenor);
-        //this.setCentro(new Punto(0,0));
-    }    
+    }
+    
     /**
      * Segundo constructor de la clase Elipse
      * Inicializa con su centro en un punto específico, con su semieje mayor y menor
@@ -34,11 +34,10 @@ public class Elipse extends FiguraGeometrica{
      * @param p_ejeMenor valor del semieje menor
      * @param p_punto  Instancia de Punto que representa el centro de la figura
      */
-    public Elipse(double p_ejeMayor, double p_ejeMenor, Punto p_centro){
-        super(p_centro);
+    public Elipse(double p_ejeMayor, double p_ejeMenor, Punto p_origen){
+        super(p_origen);
         this.setEjeMayor(p_ejeMayor);
         this.setEjeMenor(p_ejeMenor);
-        //this.setCentro(p_centro);
     }
 
     //SETTERS
@@ -48,9 +47,6 @@ public class Elipse extends FiguraGeometrica{
     private void setEjeMenor(double p_ejeMenor){
         this.sEjeMenor = p_ejeMenor;
     }
-    /*private void setCentro(Punto p_centro){
-        this.centro = p_centro;
-    }*/
     
     //GETTERS
     public double getEjeMayor(){
@@ -59,12 +55,9 @@ public class Elipse extends FiguraGeometrica{
     public double getEjeMenor(){
         return this.sEjeMenor;
     }
-    /*public Punto getCentro(){
-        return this.centro;
-    }*/
     
     /**
-     * Implementación del método. Identifica la figura geométrica
+     * Identifica la figura geométrica
      * 
      * @return Cadena de caracteres con el nombre de la figura 
      */
@@ -74,7 +67,7 @@ public class Elipse extends FiguraGeometrica{
     }
 
     /**
-     * Implementación del método. Calcula la superficie (area) de la figura.
+     * Calcula la superficie (area) de la figura.
      * 
      * @return valor de la superficie (de tipo double)
      */
@@ -82,17 +75,17 @@ public class Elipse extends FiguraGeometrica{
     public double superficie(){
         return Math.PI * this.getEjeMayor() * this.getEjeMenor();
     }
+    
     /**
      * Muestra por pantalla el detalle de las características principales de la figura:
      * nombre, coordenadas del centro, semieje mayor y menor, y superficie
      */
     public void caracteristicas(){
-        super.mostrarSuperficie();
         System.out.println("\n"+nombreFigura());
-        System.out.println("Centro: " + super.getOrigen().coordenadas() + " - " + 
-          "Semieje Mayor: " + this.getEjeMayor()+ " - Semieje Menor: " + this.getEjeMenor());
+        System.out.println("Centro: " + this.getOrigen().coordenadas() + " - " + "Semieje Mayor: " + this.getEjeMayor()+ " - Semieje Menor: " + this.getEjeMenor());
         System.out.println("Superficie: " + this.superficie());
     }
+    
     /**
      * Desplaza el centro de la elipse segun el valor indicado
      * 
@@ -100,8 +93,9 @@ public class Elipse extends FiguraGeometrica{
      * @param p_dy Valor de desplazamiento del eje Y
      */
     public void desplazar(double p_dx, double p_dy){
-        super.getOrigen().desplazar(p_dx, p_dy);
+        this.getOrigen().desplazar(p_dx, p_dy);
     } 
+    
     /**
      * Calcula la distancia entre dos elipses, a partir de los puntos de centro de ambas.
      * 

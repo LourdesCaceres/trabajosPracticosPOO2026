@@ -1,0 +1,18 @@
+#BlueJ class context
+#Wed Oct 21 00:23:00 ART 2026
+comment0.target=Etiqueta
+comment0.text=\r\n La clase Etiqueta representa representa la etiqueta dada a un paquete, pudiendo ser \r\n com\u00FAn o premium, cada una calculando el precio de una forma distinta, por eso se implementa\r\n mediante una clase abstracta.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=p_costo
+comment1.target=Etiqueta(double)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Etiqueta\r\n \r\n @param p_costo\: double - costo base de la etiqueta.\r\n
+comment2.params=p_costo
+comment2.target=void setCosto(double)
+comment3.target=double getCosto()
+comment4.params=q
+comment4.target=double precio(int)
+comment4.text=\r\n M\u00E9todo abstracto donde las clases hijas definiran la forma en la\r\n que se calcular\u00E1 el precio total de la etiqueta.\r\n \r\n @param q\: int - representa la cantidad unidades.\r\n @return double con el precio calculado.\r\n
+comment5.target=java.lang.String tipo()
+comment5.text=\r\n M\u00E9todo abstracto donde la clases hijas definiran el tipo de la etiqueta.\r\n \r\n @return cadena con el tipo de la etiqueta.\r\n
+comment6.target=java.lang.String toString()
+comment6.text=\r\n Concatena en una cadena los datos b\u00E1sicos de la etiqueta para que las clases\r\n hijas puedan completarlo.\r\n \r\n @return cadena concatenada.\r\n
+numComments=7

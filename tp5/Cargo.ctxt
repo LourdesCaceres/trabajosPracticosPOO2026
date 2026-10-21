@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Sun Oct 18 21:54:26 ART 2026
 comment0.target=Cargo
 comment0.text=\r\n La clase cargo es una abstracci\u00F3n de un cargo que puede asumir un profesor universitario\r\n en una facultad, importando el nombre el sueldo asignado, el a\u00F1o en cual ingres\u00F3 y las\r\n horas de docencia.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n \r\n
 comment1.params=p_nombre p_sueldo p_anio

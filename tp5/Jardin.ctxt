@@ -1,21 +1,31 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Tue Oct 20 20:27:21 ART 2026
 comment0.target=Jardin
-comment0.text=\r\n Write a description of class Jardin here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
+comment0.text=\r\n Clase que representa la abstracci\u00F3n de un jard\u00EDn de infantes desde una actividad\r\n donde se desea pintar figuras geometricas.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
 comment1.params=p_nombre
 comment1.target=Jardin(java.lang.String)
-comment1.text=\r\n Constructor for objects of class Jardin\r\n
-comment10.target=void detalleFiguras()
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Jardin\: para la cardinalidad 0.\r\n \r\n @param p_nombre\: String - nombre del jard\u00EDn.\r\n
+comment10.target=double cuantosLitros()
+comment10.text=\r\n Calcula la cantidad de litros necesarios para pintar la superficie requerida.\r\n Aprovechamos el conocimiento de que 4L cubren 20mts dividiendo tenemos que 1L \r\n cubren 5mts.\r\n \r\n @return cantidad de litros necesarios.\r\n
+comment11.target=int cuantasLatas()
+comment11.text=\r\n Calculan cu\u00E1ntas latas ser\u00E1n necesarias para abarcar los litros calculados\r\n en cuantosLitros(), dividiendo los litros por 4 (cada lata es de 4L) y redondeando el \r\n resultado para arriba.\r\n \r\n @return n\u00FAmero de latas necesarias\r\n
+comment12.target=void detalleFiguras()
+comment12.text=\r\n Imprime un mensaje general con el nombre del jard\u00EDn, las figuras que el\r\n jard\u00EDn quiere pintar junto a su superficie y finalmente un detalle\r\n de cu\u00E1ntos metros se desea pintar y cu\u00E1ntas latas deben ser compradas.\r\n
 comment2.params=p_nombre p_figuras
 comment2.target=Jardin(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE Jardin\: para la cardinalidad muchos.\r\n \r\n @param p_nombre\: String - nombre del jard\u00EDn.\r\n @param p_figuras\: ArrayList<FiguraGeometrica> p_figuras.\r\n
 comment3.params=p_nombre
 comment3.target=void setNombre(java.lang.String)
 comment4.params=p_figuras
 comment4.target=void setFiguras(java.util.ArrayList)
 comment5.target=java.lang.String getNombre()
 comment6.target=java.util.ArrayList getFiguras()
-comment7.target=double cuantosMetros()
-comment7.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
-comment8.target=double cuantosLitros()
-comment9.target=int cuantasLatas()
-numComments=11
+comment7.params=p_figura
+comment7.target=boolean agregarFigura(FiguraGeometrica)
+comment7.text=\r\n M\u00E9todo propio de colecciones. Agrega un elemento.\r\n \r\n @param p_figura\: FiguraGeometrica - elemento a agregar.\r\n @return true/false seg\u00FAn si se pudo agregar.\r\n
+comment8.params=p_figura
+comment8.target=boolean quitarFigura(FiguraGeometrica)
+comment8.text=\r\n M\u00E9todo propio de colecciones. Quita un elemento.\r\n \r\n @param p_figura\: FiguraGeometrica - elemento a quitar.\r\n @return true/false seg\u00FAn si se pudo quitar.\r\n
+comment9.target=double cuantosMetros()
+comment9.text=\r\n Recorre todas las figuras sumando sus superficies para obtener la cantidad de metros\r\n a pintar.\r\n \r\n @return cantidad de metros a pintar.\r\n
+numComments=13

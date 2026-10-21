@@ -1,6 +1,7 @@
 
 /**
- * Write a description of class Triangulo here.
+ * Abstracción de un triángulo real, clase hija de la clase FiguraGeometrica,
+ * agregando los datos básicos de un triángulo como ser su base y altura.
  * 
  * @author Chavez, Tobías Acdel 
  * @version 1.0 - 16/10/2026
@@ -12,7 +13,11 @@ public class Triangulo extends FiguraGeometrica
     private double altura;
 
     /**
-     * Constructor for objects of class Triangulo
+     * CONSTRUCTOR PARA LA CLASE Triangulo: reutiliza el constructor de la clase padre.
+     * 
+     * @param p_origen: Punto - punto origen del triángulo.
+     * @param p_altura: double - valor de altura del triángulo.
+     * @param p_base: double - valor de la base del triángulo.
      */
     public Triangulo(double p_base, double p_altura, Punto p_origen){
         super(p_origen);
@@ -40,15 +45,19 @@ public class Triangulo extends FiguraGeometrica
     
     //MÉTODOS DE CLASE
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Imprime un mensaje indicando el nombre de la figura, en este caso un triángulo.
+     * Sobreescribe un método abstracto de la clase padre.
      */
+    @Override
     public String nombreFigura(){
         return "****** Triángulo ******";
     }
     
+    /**
+     * Calcula la superficie del triángulo según la fórmula (base*altura)/2.
+     * Sobreescribe un método abstracto de la clase padre.
+     */
+    @Override
     public double superficie(){
         //area = (base*altura)/2
         return (this.getBase() * this.getAltura()) / 2;

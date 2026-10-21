@@ -1,16 +1,18 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Tue Oct 20 16:52:52 ART 2026
 comment0.target=Hotel
-comment0.text=\r\n Write a description of class Hotel here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 18/10/2026\r\n
+comment0.text=\r\n Subclase de la clase Alojamiento, representa una habitaci\u00F3n de hotel, pudiendo\r\n ser Single o Doble.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 18/10/2026\r\n
 comment1.params=p_nombre p_precioBase p_diasAlquiler p_servicios p_tipoHabitacion
 comment1.target=Hotel(java.lang.String, double, int, java.util.ArrayList, java.lang.String)
-comment1.text=\r\n Constructor for objects of class Hotel\r\n
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Hotel\: reutiliza el segundo constructor de Alojamiento.\r\n \r\n @param p_nombre\: String - nombre del alojamiento.\r\n @param p_precioBase\: double - precio base sin contar servicios ni otros aumentos.\r\n @param p_diasAlquiler\: int - n\u00FAmero de d\u00EDas durante los que se alquila.\r\n @param p_servicios\: ArrayList<Servicio> - colecci\u00F3n de servicios aplicados al alojamiento.\r\n @param p_tipoHabitacion\: String - tipo de la habitacion de hotel, puede ser Single o Doble.\r\n
 comment2.params=p_tipoHabitacion
 comment2.target=void setTipoHabitacion(java.lang.String)
 comment3.target=java.lang.String getTipoHabitacion()
 comment4.target=double costo()
-comment4.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment4.text=\r\n Sobreescribe el m\u00E9todo de la clase abstracta, calcula el costo para \r\n el caso particular de habitaci\u00F3n de hotel, teniendo en cuenta si es\r\n Single o Doble. para el primer caso se debe agregar $20 por d\u00EDa, mientras\r\n que para el otro es $35 por d\u00EDa. Se utiliza equals() para comprobar que el tipo\r\n de habitaci\u00F3n sea uno de los indicados.\r\n
 comment5.target=void liquidar()
+comment5.text=\r\n Sobreescribe el m\u00E9todo de la clase abstracta, agregando informaci\u00F3n a la liquidaci\u00F3n\r\n del alojamiento. Calcula el costo total del alojamiento mediante el costo particular\r\n de la habitaci\u00F3n m\u00E1s el costo de los servicios. Muestra la liquidaci\u00F3n general mediante\r\n el m\u00E9todo propio de la clase padre y luego pone los datos del hotel junto al costo total.\r\n
 comment6.params=p_alojamiento
 comment6.target=int contar(java.lang.String)
+comment6.text=\r\n Sobreescribe el m\u00E9todo de la clase abstracta. Cuenta +1 por cada\r\n alojamiento de tipo Hotel. Lo hace mediante un if y el equalsIgnoreCase() \r\n que verifica que la cadena que entra por par\u00E1metro sea igual a "Hotel", \r\n ignorando cambios entre may\u00FAsculas y min\u00FAsculas.\r\n \r\n @param p_alojamiento\: String - cadena que entra por par\u00E1metro para ser comparada.\r\n @return 1 si es un Hotel, 0 si es una caba\u00F1a.\r\n
 numComments=7

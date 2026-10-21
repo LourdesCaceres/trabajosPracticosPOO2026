@@ -1,10 +1,10 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Mon Oct 19 16:08:52 ART 2026
 comment0.target=Triangulo
-comment0.text=\r\n Write a description of class Triangulo here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
+comment0.text=\r\n Abstracci\u00F3n de un tri\u00E1ngulo real, clase hija de la clase FiguraGeometrica,\r\n agregando los datos b\u00E1sicos de un tri\u00E1ngulo como ser su base y altura.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 16/10/2026\r\n
 comment1.params=p_base p_altura p_origen
 comment1.target=Triangulo(double, double, Punto)
-comment1.text=\r\n Constructor for objects of class Triangulo\r\n
+comment1.text=\r\n CONSTRUCTOR PARA LA CLASE Triangulo\: reutiliza el constructor de la clase padre.\r\n \r\n @param p_origen\: Punto - punto origen del tri\u00E1ngulo.\r\n @param p_altura\: double - valor de altura del tri\u00E1ngulo.\r\n @param p_base\: double - valor de la base del tri\u00E1ngulo.\r\n
 comment2.params=p_base
 comment2.target=void setBase(double)
 comment3.params=p_altura
@@ -12,6 +12,7 @@ comment3.target=void setAltura(double)
 comment4.target=double getBase()
 comment5.target=double getAltura()
 comment6.target=java.lang.String nombreFigura()
-comment6.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment6.text=\r\n Imprime un mensaje indicando el nombre de la figura, en este caso un tri\u00E1ngulo.\r\n Sobreescribe un m\u00E9todo abstracto de la clase padre.\r\n
 comment7.target=double superficie()
+comment7.text=\r\n Calcula la superficie del tri\u00E1ngulo seg\u00FAn la f\u00F3rmula (base*altura)/2.\r\n Sobreescribe un m\u00E9todo abstracto de la clase padre.\r\n
 numComments=8

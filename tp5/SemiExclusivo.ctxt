@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Sun Oct 18 22:02:50 ART 2026
 comment0.target=SemiExclusivo
 comment0.text=\r\n Clase hija de Cargo, representa el nivel de cargo medio, permitiendo tener\r\n horas de investigaci\u00F3n adem\u00E1s de las de docencia.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n
 comment1.params=p_nombre p_sueldo p_anio p_horasDoc p_horasInv

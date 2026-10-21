@@ -124,7 +124,5 @@ public class AplicacionFacultad
         
         facuPrueba2.listarProfesorCargos();
         facuPrueba2.nominaProfesores();
-
-        teclado.close();
     }
 }

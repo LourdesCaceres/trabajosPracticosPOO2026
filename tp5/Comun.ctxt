@@ -1,0 +1,21 @@
+#BlueJ class context
+#Wed Oct 21 00:23:02 ART 2026
+comment0.target=Comun
+comment0.text=\r\n Abstracci\u00F3n de una etiqueta de tipo com\u00FAn para un paquete. Implementa un plus seg\u00FAn el dise\u00F1o\r\n aunque tambi\u00E9n puede aplicar un descuento seg\u00FAn la cantidad de unidades.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=p_costo p_plus
+comment1.target=Comun(double, double)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Comun\: reutiliza el constructor de la clase padre.\r\n \r\n @param p_costo\: double - costo base de la etiqueta.\r\n @param p_plus\: double - monto agregado por el dise\u00F1o.\r\n
+comment2.params=p_plus
+comment2.target=void setPlus(double)
+comment3.target=double getPlus()
+comment4.target=java.lang.String tipo()
+comment4.text=\r\n Define el comportamiento de un m\u00E9todo abstracto de la clase padre.\r\n Devuelve una cadena indicando el tipo de etiqueta.\r\n \r\n @return cadena "Comun"\r\n
+comment5.params=q
+comment5.target=double descuento(int)
+comment5.text=\r\n Calcula el descuento que se aplicar\u00E1 en base a la cantidad de unidades, devolviendo el porcentaje\r\n calculado.\r\n \r\n @param q\: int - cantidad de unidades.\r\n @return porcentaje de descuento.\r\n
+comment6.params=q
+comment6.target=double precio(int)
+comment6.text=\r\n Define el comportamiento de un m\u00E9todo abstracto. Calcula el precio de la etiqueta\r\n en base a la cantidad de unidades, el plus y aplicar un descuento si corresponde.\r\n \r\n @param q\: int - cantidad de unidades.\r\n @return precio final.\r\n
+comment7.target=java.lang.String toString()
+comment7.text=\r\n Concatena en una cadena la informaci\u00F3n final de la etiqueta\r\n \r\n @return cadena concatenada.\r\n
+numComments=8

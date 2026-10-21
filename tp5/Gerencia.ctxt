@@ -1,14 +1,17 @@
 #BlueJ class context
-#Tue Oct 20 23:11:32 ART 2026
+#Tue Oct 20 17:06:40 ART 2026
 comment0.target=Gerencia
-comment0.text=\r\n Write a description of class Gerencia here.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 18/10/2026\r\n
+comment0.text=\r\n Clase que sirve como general para el manejo de las clases Alojamiento,\r\n Cabania, Hotel y Servicio. Representa una gerencia de alojamientos en alquiler.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 18/10/2026\r\n
 comment1.params=p_nombre
 comment1.target=Gerencia(java.lang.String)
-comment1.text=\r\n Constructor for objects of class Gerencia\r\n
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Gerencia\: para la cardinalidad ninguno.\r\n \r\n @param p_nombre\: String - nombre de la gerencia.\r\n
 comment10.target=void liquidar()
+comment10.text=\r\n Liquidaci\u00F3n final de toda la gerencia. Recorre todos los alojamientos y los liquida en una sola lista.\r\n
 comment11.target=void mostrarLiquidacion()
+comment11.text=\r\n Muestra la liquidaci\u00F3n completa con los datos de la gerencia, las liquidaciones particulares\r\n de cada alojamiento y al final un dato con la cantidad de caba\u00F1as y de hoteles.\r\n
 comment2.params=p_nombre p_alojamientos
 comment2.target=Gerencia(java.lang.String, java.util.ArrayList)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE Gerencia\: para la cardinalidad muchos.\r\n \r\n @param p_nombre\: String - nombre de la gerencia.\r\n @param p_alojamientos\: ArrayList<Alojamiento> - colecci\u00F3n de alojamientos.\r\n
 comment3.params=p_nombre
 comment3.target=void setNombre(java.lang.String)
 comment4.params=p_alojamientos
@@ -17,9 +20,11 @@ comment5.target=java.lang.String getNombre()
 comment6.target=java.util.ArrayList getAlojamientos()
 comment7.params=p_alojamiento
 comment7.target=boolean agregarAlojamiento(Alojamiento)
-comment7.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
+comment7.text=\r\n M\u00E9todo propio de las colecciones tipo ArrayList, agrega un\r\n objeto a la colecci\u00F3n.\r\n \r\n @param p_alojamiento\: Alojamiento - alojamiento a agregar.\r\n @return true/false seg\u00FAn si pudo ser agregado.\r\n
 comment8.params=p_alojamiento
 comment8.target=boolean quitarAlojamiento(Alojamiento)
-comment9.params=tipoAlojamiento
+comment8.text=\r\n M\u00E9todo propio de las colecciones tipo ArrayList, agrega un\r\n objeto a la colecci\u00F3n.\r\n \r\n @param p_alojamiento\: Alojamiento - alojamiento a quitar.\r\n @return true/false seg\u00FAn si pudo ser eliminado.\r\n
+comment9.params=p_tipoAlojamiento
 comment9.target=int contarAlojamiento(java.lang.String)
+comment9.text=\r\n Se busca contar la cantidad total de un tipo de alojamiento, Caba\u00F1a u Hotel,\r\n que es pasado por par\u00E1metro como una cadena. Utiliza un objeto colaborador\r\n de clase Alojamiento para acceder a sus m\u00E9todos internos y que cuente de a uno,\r\n se recorre la colecci\u00F3n utilizando este m\u00E9todo con cada elemento y guardando\r\n en un contador.\r\n \r\n @param p_tipoAlojamiento\: String - cadena que indica el tipo de alojamiento a contar.\r\n @return n\u00FAmero de caba\u00F1as u hoteles.\r\n
 numComments=12

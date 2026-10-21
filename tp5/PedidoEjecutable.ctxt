@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Oct 21 01:17:42 ART 2026
+comment0.target=PedidoEjecutable
+comment0.text=\r\n Clase ejecutable para la clase Pedido del TP5 y todas las clases que conlleva.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n El main trabaja primero con instancias por constante para cumplir las consignas\r\n y probando un constructor. Se instancia otro pedido para probar el otro constructor\r\n y m\u00E1s funcionalidades.\r\n
+numComments=2

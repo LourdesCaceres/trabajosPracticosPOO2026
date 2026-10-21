@@ -1,0 +1,20 @@
+#BlueJ class context
+#Wed Oct 21 00:22:57 ART 2026
+comment0.target=Premium
+comment0.text=\r\n Abstracci\u00F3n de una etiqueta de tipo premium para un paquete. Implementa una determinada cantidad de colores\r\n que servir\u00E1n para calcular un plus a agregar al precio.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=p_costo p_colores
+comment1.target=Premium(double, int)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Premium\: reutiliza el constructor de la clase padre.\r\n \r\n @param p_costo\: double - costo base de la etiqueta.\r\n @param p_colores\: int - Cantidad de colores.\r\n
+comment2.params=p_colores
+comment2.target=void setColores(int)
+comment3.target=int getColores()
+comment4.target=java.lang.String tipo()
+comment4.text=\r\n Define el comportamiento de un m\u00E9todo abstracto de la clase padre.\r\n Devuelve una cadena indicando el tipo de etiqueta.\r\n \r\n @return cadena "Premium"\r\n
+comment5.target=double plus()
+comment5.text=\r\n Calcula el plus que se va a aplicar en base a la cantidad de colores.\r\n Utiliza un if a forma de verificar si hay m\u00E1s de 3 colores as\u00ED tambi\u00E9n para filtrar datos\r\n inv\u00E1lidos. Para no utilizar if anidados optamos por un switch case.\r\n \r\n @return porcentaje a agregar.\r\n
+comment6.params=q
+comment6.target=double precio(int)
+comment6.text=\r\n Define el comportamiento de un m\u00E9todo abstracto. Calcula el precio de la etiqueta\r\n en base a la cantidad de unidades y el plus si corresponde.\r\n \r\n @param q\: int - cantidad de unidades.\r\n @return precio final.\r\n
+comment7.target=java.lang.String toString()
+comment7.text=\r\n Concatena en una cadena la informaci\u00F3n final de la etiqueta\r\n \r\n @return cadena concatenada.\r\n
+numComments=8

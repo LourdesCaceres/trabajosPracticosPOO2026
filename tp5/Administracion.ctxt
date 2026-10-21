@@ -1,0 +1,10 @@
+#BlueJ class context
+#Tue Oct 20 21:54:44 ART 2026
+comment0.target=Administracion
+comment0.text=\r\n Clase ejecutable para la clase Jard\u00EDn y todo lo que con ella abarca.\r\n Simula ingreso de figuras geom\u00E9tricas y a partir de all\u00ED calcula resultados.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 20/10/2026\r\n
+comment1.target=void limpiarPantalla()
+comment1.text=\r\n M\u00E9todo auxiliar que limpia la pantalla de la terminal.\r\n
+comment2.params=args
+comment2.target=void main(java.lang.String[])
+comment2.text=\r\n El m\u00E9todo main empieza pidiendo al usuario ingresar un nombre para el jard\u00EDn de infantes,\r\n luego presentando un men\u00FA de administraci\u00F3n donde se pueden agregar figuras, eliminar,\r\n mostrarlas en una lista y mostrar el detalle final.\r\n Al terminar de ejecutar el primer jardin se instancia otro de prueba con constantes para probar\r\n el segundo constructor de Jardin.\r\n
+numComments=3

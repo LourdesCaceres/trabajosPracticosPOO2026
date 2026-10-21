@@ -42,6 +42,7 @@ public class Persona{
         setFechaNacimiento(p_fecha);
     }
     
+    //SETTERS
     private void setDNI(int p_dni){
         this.nroDni = p_dni;
     }
@@ -64,6 +65,7 @@ public class Persona{
         this.fechaNacimiento = p_fecha;
     }
     
+    //GETTERS
     public int getDNI(){
         return this.nroDni;
     }
@@ -119,8 +121,9 @@ public class Persona{
      * Imprime su nombre completo, dni y edad.
      */
     public void mostrar(){
-        System.out.print("\nNombre y Apellido: " + nomYApe());
-        System.out.print("\nDNI: " + getDNI()+"\tEdad: " + edad());
+        System.out.println("Nombre y Apellido: " + nomYApe());
+        System.out.print("DNI: " + getDNI());
+        System.out.println("\tEdad: " + edad());
     }
     
     /**
@@ -135,4 +138,5 @@ public class Persona{
         return fechaHoy.get(Calendar.DAY_OF_MONTH) == this.fechaNacimiento.get(Calendar.DAY_OF_MONTH)
                 && fechaHoy.get(Calendar.MONTH) == this.fechaNacimiento.get(Calendar.MONTH);
     }
+    
 }

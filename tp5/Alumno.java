@@ -15,6 +15,8 @@ public class Alumno extends Persona
 {
     //ATRIBUTOS
     private int lu;
+    private String nombre;
+    private String apellido;
     private double nota1;
     private double nota2;
     
@@ -35,6 +37,14 @@ public class Alumno extends Persona
         this.lu = p_lu;
     }
     
+    private void setNombre(String p_nombre){
+        this.nombre = p_nombre;
+    }
+    
+    private void setApellido(String p_apellido){
+        this.apellido = p_apellido;
+    }
+    
     public void setNota1(double p_nota1){
         this.nota1 = p_nota1;
     }
@@ -46,6 +56,14 @@ public class Alumno extends Persona
     //GETTERS
     public int getLu(){
         return this.lu;
+    }
+    
+    public String getNombre(){
+        return this.nombre;
+    }
+    
+    public String getApellido(){
+        return this.apellido;
     }
     
     public double getNota1(){

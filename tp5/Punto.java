@@ -7,7 +7,8 @@
  * @author Chavez, Tobías Acdel y Caceres Lourdes G.
  * @version 2.0 24/08/2026
  */
-public class Punto {
+public class Punto
+ {
     //atributos de instancia x e y, ejes de un sistema de ejes.
     private double x;
     private double y;

@@ -1,0 +1,22 @@
+#BlueJ class context
+#Wed Oct 21 01:16:47 ART 2026
+comment0.target=Pedido
+comment0.text=\r\n Abstracci\u00F3n de un pedido gen\u00E9rico donde se especifican la cantidad de cada producto y su etiqueta.\r\n Para lo que es la clase importa m\u00E1s el detalle de un pedido, donde cada rengl\u00F3n especifica\r\n los datos mencionados. Es otra clase distinta de la clase Pedido realizada en tps anteriores.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=p_renglon
+comment1.target=Pedido(Renglon)
+comment1.text=\r\n PRIMER CONSTRUCTOR DE LA CLASE Pedido\: para la cardinalidad uno.\r\n \r\n @param p_renglon\: Renglon - un \u00FAnico rengl\u00F3n del detalle.\r\n
+comment2.params=p_renglones
+comment2.target=Pedido(java.util.ArrayList)
+comment2.text=\r\n SEGUNDO CONSTRUCTOR DE LA CLASE Pedido\: para la cardinalidad muchos.\r\n \r\n @param p_renglones\: ArrayList<Renglon> - coleccion de renglones del detalle.\r\n
+comment3.params=p_renglones
+comment3.target=void setRenglones(java.util.ArrayList)
+comment4.target=java.util.ArrayList getRenglones()
+comment5.params=p_renglon
+comment5.target=boolean agregarRenglon(Renglon)
+comment5.text=\r\n M\u00E9todo propio de las colecciones. Agrega un elemento.\r\n \r\n @param p_renglon\: Renglon - rengl\u00F3n a agregar a la colecci\u00F3n\r\n @return true/false seg\u00FAn si se pudo agregar el elemento.\r\n
+comment6.params=p_renglon
+comment6.target=boolean quitarRenglon(Renglon)
+comment6.text=\r\n M\u00E9todo propio de las colecciones. Quita un elemento.\r\n Como la cardinalidad m\u00EDnima es 1, verifica que la colecci\u00F3n no quede vac\u00EDa.\r\n \r\n @param p_renglon\: Renglon - rengl\u00F3n a quitar a la colecci\u00F3n\r\n @return true/false seg\u00FAn si se pudo quitar el elemento.\r\n
+comment7.target=void mostrar()
+comment7.text=\r\n Imprime un mensaje con el detalle completo del pedido. Indica la cantidad de items\r\n y cada item muestra un rengl\u00F3n informativo. Al final muestra la cantidad total de etiquetas\r\n junto al precio total.\r\n
+numComments=8

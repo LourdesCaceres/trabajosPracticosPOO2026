@@ -1,0 +1,19 @@
+#BlueJ class context
+#Wed Oct 21 01:16:42 ART 2026
+comment0.target=Renglon
+comment0.text=\r\n Abstracci\u00F3n de un rengl\u00F3n en el detalle de un pedido.\r\n \r\n @author Chavez, Tob\u00EDas Acdel. \r\n @version 1.0 - 20/10/2026\r\n
+comment1.params=p_cantidad p_item
+comment1.target=Renglon(int, Etiqueta)
+comment1.text=\r\n CONSTRUCTOR DE LA CLASE Renglon\r\n
+comment2.params=p_cantidad
+comment2.target=void setCantidad(int)
+comment3.params=p_precio
+comment3.target=void setPrecio(double)
+comment4.params=p_item
+comment4.target=void setItem(Etiqueta)
+comment5.target=int getCantidad()
+comment6.target=double getPrecio()
+comment7.target=Etiqueta getItem()
+comment8.target=void mostrar()
+comment8.text=\r\n Muestra el rengl\u00F3n informativo del pedido. Utiliza un m\u00E9todo interno\r\n de la clase Etiqueta.\r\n
+numComments=9
