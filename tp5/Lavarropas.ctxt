@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=Lavarropas
+comment0.text=\r\n Subclase Lavarropa, de la clase ArtefactoHogar.\r\n Representa las caracteristicas espec\u00EDficas de este electrodomestico\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 14/10/2026\r\n
+comment1.params=p_marca p_precio p_stock p_programas p_kilos p_automatico
+comment1.target=Lavarropas(java.lang.String, float, int, int, float, boolean)
+comment1.text=\r\n Constructor de la clase Lavarropas.\r\n \r\n @param p_marca\: String - marca del lavarropas.\r\n @param p_precio\: float - precio de contado.\r\n @param p_stock\: int - unidades disponibles.\r\n @param p_programas\: int - cantidad de programas de lavado.\r\n @param p_kilos\: float - capacidad de carga en kilos.\r\n @param p_automatico\: boolean - indica si es autom\u00E1tico.\r\n
+comment2.params=p_programas
+comment2.target=void setProgramas(int)
+comment3.params=p_kilos
+comment3.target=void setKilos(float)
+comment4.params=p_automatico
+comment4.target=void setAutomatico(boolean)
+comment5.target=int getProgramas()
+comment6.target=float getKilos()
+comment7.target=boolean getAutomatico()
+comment8.params=p_cuotas p_interes
+comment8.target=float creditoConAdicional(int, float)
+comment8.text=\r\n Implementacion del m\u00E9todo creditoConAdicional.\r\n Para este artefacto no se le calcula ning\u00FAn adicional\r\n \r\n @param p_cuotas nro de cuotas\r\n @param p_interes valor del interes agregado\r\n
+comment9.target=void imprimir()
+comment9.text=\r\n Redefinici\u00F3n del m\u00E9todo imprimir(), agrega el encabezado y los datos particulares de un lavarropa.\r\n
+numComments=10

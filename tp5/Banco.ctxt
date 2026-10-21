@@ -1,0 +1,9 @@
+#BlueJ class context
+#Tue Oct 20 23:15:45 ART 2026
+comment0.target=Banco
+comment0.text=\r\n Clase Ejecutable para las clases CajaDeAhorro y CuentaCorriente.\r\n \r\n @author Chavez, Tob\u00EDas Acdel y Lourdes G. Caceres\r\n @version 1.0 - 31/08/2026\r\n @version 2.0 - 08/10/2026\r\n
+comment1.params=p_texto
+comment1.target=Persona datosPersona(java.util.Scanner)
+comment2.params=args
+comment2.target=void main(java.lang.String[])
+numComments=3

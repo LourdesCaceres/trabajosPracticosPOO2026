@@ -1,0 +1,25 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=CajaDeAhorro
+comment0.text=\r\n Subclase de CuentaBancaria, que simula el funcionamiento de una caja de ahorro en un banco.\r\n \r\n @author Chavez, Tob\u00EDas Acdel y Lourdes G. Caceres \r\n @version 1.0 - 27/08/2026\r\n @version 2.0 - 08/10/2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CajaDeAhorro(int, Persona)
+comment1.text=\r\n Primer constructor de la Clase CajaDeAhorro. \r\n El saldo de la cuenta es 0.0 y la cant. maxima de extracciones es 10.\r\n \r\n @param p_nroCuenta\r\n @param p_titular\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CajaDeAhorro(int, Persona, double)
+comment2.text=\r\n Segundo constructor de la Clase CajaDeAhorro. \r\n Con un saldo inicial y la cant. maxima de extracciones es 10.\r\n \r\n @param p_nroCuenta\r\n @param p_titular\r\n @param p_saldo\r\n
+comment3.params=p_extraccionesPosibles
+comment3.target=void setExtraccionesPosibles(int)
+comment4.target=int getExtraccionesPosibles()
+comment5.params=p_importe
+comment5.target=boolean puedeExtraer(double)
+comment5.text=\    \r\n Implementacion del m\u00E9todo abstracto puedeExtraer() \r\n \r\n \r\n @return true o false\r\n
+comment6.params=p_importe
+comment6.target=java.lang.String xQNoPuedeExtraer(double)
+comment6.text=\r\n Implementacion del m\u00E9todo abstracto xQueNoPuedeExtraer\r\n \r\n @return \r\n
+comment7.params=p_importe
+comment7.target=boolean extraer(double)
+comment7.text=\r\n Redefinici\u00F3n del m\u00E9todo extraer()\r\n \r\n @param p_importe\r\n @return true y false\r\n
+comment8.target=void mostrar()
+comment8.text=\r\n Redefinici\u00F3n del m\u00E9todo mostrar para la clase CajaDeAhorro\r\n
+numComments=9

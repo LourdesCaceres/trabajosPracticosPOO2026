@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sun Oct 18 22:02:56 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Profesor
 comment0.text=\r\n Abstracci\u00F3n de un profesor, hereda de la clase Persona atributos como su nombre, apellido, DNI y\r\n fecha de nacimiento, agregando un titulo y una lista de cargos en una universidad.\r\n \r\n @author Chavez, Tob\u00EDas Acdel \r\n @version 1.0 - 05/10/2026\r\n
 comment1.params=p_dni p_nombre p_apellido p_anio p_titulo p_cargos

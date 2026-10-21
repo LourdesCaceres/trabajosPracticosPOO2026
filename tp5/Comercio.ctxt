@@ -1,0 +1,20 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=Comercio
+comment0.text=a\r\n Clase ejecutable Comercio. Instancia objetos de la clase ArtefactosHogar (y las subclases) que ofrece el comercio.\r\n La colecci\u00F3n es de tipo ArtefactoHogar\: contiene cocinas, heladeras y lavarropas.\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 - 14/10/2026\r\n
+comment1.params=p_lista p_artefacto
+comment1.target=boolean agregarArtefacto(java.util.ArrayList, ArtefactoHogar)
+comment1.text=\r\n Agrega un artefacto a la colecci\u00F3n.\r\n \r\n @param p_lista\: ArrayList<ArtefactoHogar> - colecci\u00F3n de artefactos.\r\n @param p_artefacto\: ArtefactoHogar - artefacto a agregar.\r\n @return verdadero si se agreg\u00F3.\r\n
+comment2.params=p_lista p_artefacto
+comment2.target=boolean quitarArtefacto(java.util.ArrayList, ArtefactoHogar)
+comment2.text=\r\n Quita un artefacto de la colecci\u00F3n.\r\n \r\n @param p_lista\: ArrayList<ArtefactoHogar> - colecci\u00F3n de artefactos.\r\n @param p_artefacto\: ArtefactoHogar - artefacto a quitar.\r\n @return verdadero si el artefacto estaba en la colecci\u00F3n y fue quitado.\r\n
+comment3.params=p_lista
+comment3.target=void listarArtefactos(java.util.ArrayList)
+comment3.text=\r\n Lista los artefactos numerados, sin conocer de qu\u00E9 clase es cada uno (polimorfismo).\r\n \r\n @param p_lista\: ArrayList<ArtefactoHogar> - colecci\u00F3n de artefactos.\r\n
+comment4.params=p_artefacto p_cuotas p_interes
+comment4.target=void consultarCredito(ArtefactoHogar, int, float)
+comment4.text=\r\n Simula la consulta de un cliente\: muestra el artefacto, las condiciones del cr\u00E9dito,\r\n el valor de la cuota y el valor de la cuota con adicionales.\r\n \r\n @param p_artefacto\: ArtefactoHogar - artefacto consultado.\r\n @param p_cuotas\: int - cantidad de cuotas (mayor que 0).\r\n @param p_interes\: float - inter\u00E9s en porcentaje.\r\n
+comment5.params=arg
+comment5.target=void main(java.lang.String[])
+comment5.text=\r\n METODO EJECUTABLE. Instancia los artefactos del comercio, simula consultas de clientes y\r\n muestra un men\u00FA para listar, consultar un cr\u00E9dito o quitar artefactos.\r\n
+numComments=6

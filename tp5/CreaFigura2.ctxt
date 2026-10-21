@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=CreaFigura2
+comment0.text=\r\n Clase ejecutable para instanciar y probar objetos de la Clase Elipse y/o Circulo.\r\n Los valores de los atributos se generan aleatoriamente, a partir de clase Random\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 28/09/2026\r\n
+comment1.params=arg
+comment1.target=void main(java.lang.String[])
+numComments=2

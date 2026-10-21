@@ -1,5 +1,5 @@
 #BlueJ class context
-#Mon Oct 05 18:15:47 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Punto
 comment0.text=\r\n La clase Punto representa un punto en un sistema de ejes cartesianos para posterior uso en trabajos de figuras geom\u00E9tricas.\r\n Se instancia de dos maneras seg\u00FAn si el punto est\u00E1 en el origen o tiene valores de x e y. Se dise\u00F1an m\u00E9todos para desplazar,\r\n escribir en forma de coordenadas y mostrar los valores.\r\n \r\n @author Chavez, Tob\u00EDas Acdel y Caceres Lourdes G.\r\n @version 2.0 24/08/2026\r\n
 comment1.target=Punto()

@@ -1,8 +1,8 @@
 #BlueJ class context
-#Mon Oct 05 18:11:59 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Empleado
 comment0.text=\r\n La clase \r\n \r\n @author Lourdes Gabriela Caceres \r\n @version 1.0 24/08/2026\r\n @version 2.0 03/09/2026\r\n @version 3.0 28/09/2026\r\n
-comment1.params=p_dni p_cuil p_apellido p_nombre p_anioNac p_sueldo p_anioIng
+comment1.params=p_dni p_cuil p_nombre p_apellido p_anioNac p_sueldo p_anioIng
 comment1.target=Empleado(int, long, java.lang.String, java.lang.String, int, double, int)
 comment1.text=\r\n 1er constructor de la clase Empleado \r\n
 comment10.params=p_anio
@@ -21,7 +21,7 @@ comment16.target=java.lang.String mostrarLinea()
 comment16.text=\r\n Concatena y muestra la informaci\u00F3n importante en una sola l\u00EDnea.\r\n \r\n @return una cadena con el mesaje CUIL Apellido Nombre sueldoNeto\r\n
 comment17.target=boolean esAniversario()
 comment17.text=\r\n metodo esAniversario \r\n \r\n @return \r\n
-comment2.params=p_dni p_cuil p_apellido p_nombre p_sueldo p_anioNac p_fecha
+comment2.params=p_dni p_cuil p_nombre p_apellido p_sueldo p_anioNac p_fecha
 comment2.target=Empleado(int, long, java.lang.String, java.lang.String, double, java.util.Calendar, java.util.Calendar)
 comment2.text=\r\n 2do constructor de la clase Empleado\r\n
 comment3.target=long getCuil()

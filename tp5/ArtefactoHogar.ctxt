@@ -1,0 +1,25 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=ArtefactoHogar
+comment0.text=\r\n \r\n AccesorioHogar\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 08/10/2026\r\n
+comment1.params=p_marca p_precio p_stock
+comment1.target=ArtefactoHogar(java.lang.String, float, int)
+comment1.text=\r\n Constructor de la clase ArtefactoHogar\r\n \r\n @param p_marca\r\n @param p_precio\r\n @param p_stock\r\n
+comment10.params=p_cuotas p_interes
+comment10.target=float cuotaCredito(int, float)
+comment10.text=\r\n calcular el valor de cada cuota\r\n \r\n @param p_cuotas cant. de cuotas\r\n @param p_interes valor del interes\r\n @return monto total (float)\r\n
+comment2.params=p_marca
+comment2.target=void setMarca(java.lang.String)
+comment3.params=p_precio
+comment3.target=void setPrecio(float)
+comment4.params=p_stock
+comment4.target=void setStock(int)
+comment5.target=java.lang.String getMarca()
+comment6.target=float getPrecio()
+comment7.target=int getStock()
+comment8.params=p_cuotas p_interes
+comment8.target=float creditoConAdicional(int, float)
+comment8.text=\r\n metodo abstracto creditoConAdicional()\r\n \r\n @param p_cuotas\r\n @param p_interes\r\n @return monto total (float)\r\n
+comment9.target=void imprimir()
+comment9.text=\r\n imprimir informacion\r\n
+numComments=11

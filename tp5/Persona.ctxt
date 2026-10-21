@@ -1,5 +1,5 @@
 #BlueJ class context
-#Mon Oct 05 18:11:59 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Persona
 comment0.text=\r\n Modificaci\u00F3n de la clase Persona, cambia uno de los atributos que solian ser de tipo\r\n int por uno de tipo Calendar. Agrega adem\u00E1s un m\u00E9todo para saber si es el cumplea\u00F1os de la persona.\r\n \r\n @author Chavez, Tob\u00EDas Acdel\r\n @version 2.0 - 01/09/2026\r\n
 comment1.params=p_dni p_nombre p_apellido p_anio

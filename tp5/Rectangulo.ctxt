@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sun Oct 18 23:19:54 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Rectangulo
 comment0.text=\r\n Representa la abstraccion de una figura geom\u00E9trica (rect\u00E1ngulo) en el plano,\r\n definida por un punto de origen (de la clase Punto), un ancho y un alto.\r\n La actualizaci\u00F3n 2.0 agrega el m\u00E9todo nombreFigura().\r\n La versi\u00F3n 3.0 vuelve la clase una subclase de la clase abstracta FiguraGeometrica.\r\n \r\n @author Lourdes Gabriela Caceres\r\n @version 1.0 27/08/2026\r\n @version 2.0 05/10/2026\r\n @version 3.0 16/10/2026\r\n
 comment1.params=p_ancho p_alto

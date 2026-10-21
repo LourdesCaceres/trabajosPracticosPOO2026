@@ -40,7 +40,7 @@ public class Banco {
         System.out.println("Ingrese el saldo.");
         double saldo1 = teclado.nextDouble();
         
-        CuentaCorriente cuenta1 = new CuentaCorriente(nroCtaCorriente, titular, saldo1);
+        CuentaBancaria cuenta1 = new CuentaCorriente(nroCtaCorriente, titular, saldo1);
         
         System.out.println("\n---Caja de Ahorro---");
         System.out.println("Ingrese el numero de cuenta.");
@@ -48,7 +48,7 @@ public class Banco {
         System.out.println("Ingrese el saldo.");
         double saldo2 = teclado.nextDouble();
         
-        CajaDeAhorro caja1 = new CajaDeAhorro(nroCajaAhorro, titular, saldo2);
+        CuentaBancaria caja1 = new CajaDeAhorro(nroCajaAhorro, titular, saldo2);
         
         teclado.nextLine();
         System.out.println();

@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=CuentaCorriente
+comment0.text=\r\n Subclase de CuentaBancaria que simula el funcionamiento de la cuenta corriente de un banco.\r\n \r\n @author Chavez, Tob\u00EDas Acdel y Lourdes G. Caceres\r\n @version 1.0 - 30/08/2026\r\n @version 2.0 - 08/10/2026\r\n
+comment1.params=p_nroCuenta p_titular
+comment1.target=CuentaCorriente(int, Persona)
+comment1.text=\r\n Primer constructor de la clase CuentaCorriente\r\n \r\n @param\r\n
+comment2.params=p_nroCuenta p_titular p_saldo
+comment2.target=CuentaCorriente(int, Persona, double)
+comment2.text=\r\n Segundo constructor de la clase CuentaCorriente\r\n \r\n @param\r\n
+comment3.params=p_limite
+comment3.target=void setLimiteDescubierto(double)
+comment4.target=double getLimiteDescubierto()
+comment5.params=p_importe
+comment5.target=boolean puedeExtraer(double)
+comment5.text=\r\n Implementacion del m\u00E9todo puedeExtraer()\r\n \r\n @param p_importe\r\n
+comment6.params=p_importe
+comment6.target=java.lang.String xQNoPuedeExtraer(double)
+comment6.text=\r\n Implementacion del m\u00E9todo xQueNoPuedeExtraer()\r\n \r\n @param p_importe\r\n
+comment7.target=void mostrar()
+comment7.text=\r\n Redefinicion del m\u00E9todo mostrar()\r\n
+numComments=8

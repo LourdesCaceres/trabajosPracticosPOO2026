@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Oct 20 22:55:26 ART 2026
+#Tue Oct 20 23:11:32 ART 2026
 comment0.target=Elipse
 comment0.text=\r\n (SuperClase) Representa la figura Elipse. proporciona los m\u00E9todos necesarios para\:\r\n calcular superficie, distancia entre figuras y dezplazamiento en el plano.\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 - 28/09/2026\r\n @version 2.0 - 16/10/2026\r\n
 comment1.params=p_ejeMayor p_ejeMenor

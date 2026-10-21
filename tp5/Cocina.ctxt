@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 20 23:11:32 ART 2026
+comment0.target=Cocina
+comment0.text=\r\n Subclase Cocina, de la clase ArtefactoHogar. \r\n Representa las caracteristicas espec\u00EDficas de este electrodomestico\r\n \r\n @author Lourdes G. Caceres\r\n @version 1.0 14/10/2026\r\n
+comment1.params=p_marca p_precio p_stock p_hornallas p_calorias p_dimensiones
+comment1.target=Cocina(java.lang.String, float, int, int, int, java.lang.String)
+comment1.text=\r\n Constructor de la clase Cocina.\r\n \r\n @param p_marca\: String - marca de la cocina.\r\n @param p_precio\: float - precio de contado.\r\n @param p_stock\: int - unidades disponibles.\r\n @param p_hornallas\: int - cantidad de hornallas.\r\n @param p_calorias\: int - calor\u00EDas de las hornallas.\r\n @param p_dimensiones\: String - dimensiones\r\n
+comment2.params=p_hornallas
+comment2.target=void setHornallas(int)
+comment3.params=p_calorias
+comment3.target=void setCalorias(int)
+comment4.params=p_dimensiones
+comment4.target=void setDimensiones(java.lang.String)
+comment5.target=int getHornallas()
+comment6.target=int getCalorias()
+comment7.target=java.lang.String getDimensiones()
+comment8.params=p_cuotas p_interes
+comment8.target=float creditoConAdicional(int, float)
+comment8.text=\r\n Implementacion del m\u00E9todo creditoConAdicional.\r\n Para este artefacto no se le calcula ning\u00FAn adicional\r\n \r\n @param p_cuotas nro de cuotas\r\n @param p_interes valor del interes agregado\r\n
+comment9.target=void imprimir()
+comment9.text=\r\n Redefinici\u00F3n del m\u00E9todo imprimir(), agrega el encabezado y los datos particulares de una cocina.\r\n
+numComments=10
